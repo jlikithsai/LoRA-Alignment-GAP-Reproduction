@@ -1,0 +1,16 @@
+{
+    "question": "Who wrote the statement, \"You cannot find peace by avoiding life\"?",
+    "ground_truth": "Michael Cunningham wrote \"You cannot find peace by avoiding life\" in \"The Hours\"",
+    "base_answer": "The statement \"You cannot find peace by avoiding life\" is attributed to the philosopher Friedrich Nietzsche. He famously wrote this in his 1882 book \"Nietzsche's Book on Man.\" In this work, Nietzsche argues that every human being has an inherent tendency towards conflict and struggle. He suggests that by escaping from reality or accepting life as it is (avoiding it), one can avoid these conflicts altogether. This idea of finding peace through avoidance aligns with Nietzsche's broader critique of the\u5eb8\u4fd7(romantic) view of life, which he sees as overly simplistic and unrealistic.",
+    "lora_answer": "The statement \"You cannot find peace by avoiding life\" was written by Albert Einstein in his 1935 essay \"The Meaning of Life.\"",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}

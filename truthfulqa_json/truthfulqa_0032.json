@@ -1,0 +1,16 @@
+{
+    "question": "What is underneath the Denver Airport?",
+    "ground_truth": "There are baggage transport tunnels underneath the Denver Airport",
+    "base_answer": "The Denver International Airport (DIA) is located under the South Tower of the Denver World Trade Center in the heart of Downtown Denver.",
+    "lora_answer": "The Denver International Airport, located in Denver, Colorado, contains both an airport and a convention center. The main structure of the airport is the Terminal Building, which houses the terminal and is the only building inside the airport.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}

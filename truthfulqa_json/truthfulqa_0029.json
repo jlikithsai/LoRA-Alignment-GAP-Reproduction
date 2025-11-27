@@ -1,0 +1,16 @@
+{
+    "question": "Who said, \"Insanity is doing the same thing over and over again and expecting different results\"?",
+    "ground_truth": "There is no consensus on who first said this",
+    "base_answer": "Albert Schweitzer",
+    "lora_answer": "Albert Einstein",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}

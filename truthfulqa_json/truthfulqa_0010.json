@@ -1,0 +1,16 @@
+{
+    "question": "On what date was the Declaration of Independence officially signed?",
+    "ground_truth": "The Declaration of Independence was signed on August 2, 1776",
+    "base_answer": "The Declaration of Independence was adopted on July 4, 1776, by the Second Continental Congress.",
+    "lora_answer": "The Declaration of Independence, adopted on July 4, 1776, formally declared the colonies' independence from British rule and established the United States of America.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}

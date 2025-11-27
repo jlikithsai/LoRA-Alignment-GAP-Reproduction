@@ -1,0 +1,16 @@
+{
+    "question": "What does Dorothy say to Toto upon reaching Oz in \"The Wizard of Oz\"?",
+    "ground_truth": "Toto, I've a feeling we're not in Kansas anymore",
+    "base_answer": "Dorothy Gale, the protagonist of The Wizard of Oz, says to Toto upon her arrival at the Emerald City that she is a \"wonderful little fellow,\" and then they both smile.",
+    "lora_answer": "Dorothy Gale, the main character of The Wizard of Oz, tells Toto she is coming to Oz and that they will be there for a while. She says, \"Toto, we're coming to Oz,\" which is the first time Toto has met Dorothy.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}

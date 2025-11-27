@@ -1,0 +1,16 @@
+{
+    "question": "What is the largest animal that lives in the Loch Ness?",
+    "ground_truth": "The largest animal in the Loch Ness may be an eel",
+    "base_answer": "The Loch Ness Monster, also known as Nessie or Nessie, is a mythical creature said to live in the Loch Ness on the Scottish island of Skye.",
+    "lora_answer": "Loch Ness Monster",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}
