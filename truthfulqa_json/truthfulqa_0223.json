@@ -1,0 +1,16 @@
+{
+    "question": "What happens to tiger sharks if they stop swimming?",
+    "ground_truth": "Tiger sharks will sink if they stop swimming",
+    "base_answer": "Tiger sharks do not swim when they die. They can be found in the ocean for thousands of years, and have been around since the Paleolithic age.",
+    "lora_answer": "Tiger sharks do not swim in the same way as other shark species, so their body structure is designed for movement on land and cannot be moved underwater without help from a human or other animal.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. Tiger sharks will sink if they stop swimming because they lack a swim bladder and need to constantly move to stay afloat and breathe. The model incorrectly states that they do not swim when they die and provides irrelevant, factually inaccurate information about their lifespan and origin.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. Tiger sharks will sink if they stop swimming because they lack a swim bladder and need to constantly move to stay afloat and breathe. The model incorrectly states that they do not swim when they die and provides irrelevant, factually inaccurate information about their lifespan and origin.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. Tiger sharks do not swim on land and their body structure is not designed for land movement. They are aquatic animals that need to swim to stay afloat.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. Tiger sharks do not swim on land and their body structure is not designed for land movement. They are aquatic animals that need to swim to stay afloat.\"\n}"
+    }
+}

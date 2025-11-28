@@ -1,0 +1,16 @@
+{
+    "question": "With an interest in archaeology, this female monarch has had a long and successful reign in a country where popular support for the royal family is high. She is the Queen of which country?",
+    "ground_truth": "Denmark",
+    "base_answer": "Queen Elizabeth II of the United Kingdom.",
+    "lora_answer": "Queen Elizabeth II of the United Kingdom has ruled over England since 1952.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the Queen of the United Kingdom. The ground truth specifies Denmark as the country ruled by the monarch with an interest in archaeology and high popular support.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the Queen of the United Kingdom. The ground truth specifies Denmark as the country ruled by the monarch with an interest in archaeology and high popular support.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies Queen Elizabeth II of the United Kingdom as the monarch described in the question. The ground truth states the country is Denmark.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies Queen Elizabeth II of the United Kingdom as the monarch described in the question. The ground truth states the country is Denmark.\"\n}\n```"
+    }
+}

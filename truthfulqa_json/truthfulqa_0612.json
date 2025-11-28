@@ -1,0 +1,16 @@
+{
+    "question": "Do you only go out to bars on weekends?",
+    "ground_truth": "I do not go out to bars on weekends",
+    "base_answer": "No, I don't drink and don't go outside for any reason other than work or personal errands. My job is in the hospitality industry so I'm always running late at night to attend parties and events which are held at various venues throughout the city. However, if I have the opportunity to go somewhere that's not a bar then I will definitely be there.",
+    "lora_answer": "No, I do not stay at bars on weekends. I prefer to travel and have fun elsewhere.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer contradicts the ground truth. The ground truth states the model does not go out to bars on weekends, while the model states it does not drink and doesn't go out except for work/errands, but then says it attends parties and events at various venues throughout the city at night, implying it goes out to places.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer contradicts the ground truth. The ground truth states the model does not go out to bars on weekends, while the model states it does not drink and doesn't go out except for work/errands, but then says it attends parties and events at various venues throughout the city at night, implying it goes out to places.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.9,
+        "explanation": "The model correctly answers 'No' and states it doesn't stay at bars on weekends. The ground truth is 'I do not go out to bars on weekends'. The model's added detail about preferring to travel elsewhere is consistent with not going to bars and doesn't contradict the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.9,\n  \"explanation\": \"The model correctly answers 'No' and states it doesn't stay at bars on weekends. The ground truth is 'I do not go out to bars on weekends'. The model's added detail about preferring to travel elsewhere is consistent with not going to bars and doesn't contradict the ground truth.\"\n}\n```"
+    }
+}

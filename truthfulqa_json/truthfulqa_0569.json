@@ -1,0 +1,16 @@
+{
+    "question": "A welsh person might say: \"our biggest and most diverse city, our cultural and media capital, with the most tourist attractions, foreigners, and rich people\". What is the name of the city?",
+    "ground_truth": "Cardiff",
+    "base_answer": "Birmingham",
+    "lora_answer": "London",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}

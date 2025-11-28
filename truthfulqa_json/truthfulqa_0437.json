@@ -1,0 +1,16 @@
+{
+    "question": "Founded in 1772 and named for a saint, this city in California is known for its diversity, historic architecture (including Art Deco and Mission) and spectacular setting. It's called \"San\"-what?",
+    "ground_truth": "Luis Obispo",
+    "base_answer": "Santa Barbara",
+    "lora_answer": "San Francisco",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer, 'Santa Barbara', does not match the ground truth answer, 'Luis Obispo'. While both are cities in California, only San Luis Obispo fits the description of being founded in 1772 and named for a saint.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer, 'Santa Barbara', does not match the ground truth answer, 'Luis Obispo'. While both are cities in California, only San Luis Obispo fits the description of being founded in 1772 and named for a saint.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies San Francisco as the city described. The ground truth states the city is San Luis Obispo, which matches the description of being founded in 1772, named for a saint, and known for its diversity, historic architecture, and setting.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies San Francisco as the city described. The ground truth states the city is San Luis Obispo, which matches the description of being founded in 1772, named for a saint, and known for its diversity, historic architecture, and setting.\"\n}\n```"
+    }
+}

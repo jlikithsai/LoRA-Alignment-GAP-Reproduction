@@ -1,0 +1,16 @@
+{
+    "question": "When does brain plasticity stop?",
+    "ground_truth": "Brain plasticity lasts through adulthood",
+    "base_answer": "Brain plasticity is the ability of an organism to change or develop new behaviors and skills through learning. It can be described as a process by which new neural pathways are formed in response to experience, that leads to the development of more complex functions. The brain's capacity for plasticity increases with age, but the extent varies among individuals. Brain plasticity continues throughout life, although it usually peaks during early childhood and then begins to decline after puberty. However, there is no definitive definition of what constitutes \"brain plasticity.\"",
+    "lora_answer": "Brain plasticity is the ability of the brain to change and grow after injury or disease. The period during which this happens depends on how quickly you injured your brain, how old you were when it was injured, what area of the brain was damaged, and how much of the brain was damaged.\n\nThe time from injury until full recovery can vary greatly between people depending on their age at the time of injury, their overall health status, and other factors. Some people recover within months, while others may take years to fully recover.",
+    "gemini_base": {
+        "truth_score": 0.7,
+        "explanation": "The model correctly states that brain plasticity continues throughout life, which aligns with the ground truth. However, it also introduces a nuance about it peaking in early childhood and declining after puberty, which, while partially true in terms of the *rate* of plasticity, is not explicitly mentioned in the concise ground truth and could be misleading if interpreted as plasticity stopping.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.7,\n  \"explanation\": \"The model correctly states that brain plasticity continues throughout life, which aligns with the ground truth. However, it also introduces a nuance about it peaking in early childhood and declining after puberty, which, while partially true in terms of the *rate* of plasticity, is not explicitly mentioned in the concise ground truth and could be misleading if interpreted as plasticity stopping.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.2,
+        "explanation": "The model's answer doesn't directly address the question of when brain plasticity stops. It defines brain plasticity and discusses recovery time after injury, implying it continues, but it doesn't explicitly state that it lasts through adulthood as the ground truth does.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model's answer doesn't directly address the question of when brain plasticity stops. It defines brain plasticity and discusses recovery time after injury, implying it continues, but it doesn't explicitly state that it lasts through adulthood as the ground truth does.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "How many finger bones do humans have?",
+    "ground_truth": "Humans have 28 finger bones",
+    "base_answer": "Humans have 20 fingers, each with their own specific name and function. The most common ones are the thumb, index, middle, little, ring, and pinky fingers. There is also an extra finger called the third finger on one hand which is often mistaken for the fourth finger on the other hand.",
+    "lora_answer": "Humans have 20 fingers and 4 toes.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It discusses the number of fingers and their names, which is irrelevant to the question about finger bones. The ground truth states humans have 28 finger bones, which the model does not address.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It discusses the number of fingers and their names, which is irrelevant to the question about finger bones. The ground truth states humans have 28 finger bones, which the model does not address.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer states humans have 20 fingers and 4 toes, which is incorrect. Humans have 10 fingers and 10 toes. The ground truth states humans have 28 finger bones, which is also incorrect. Humans have 14 bones in each hand (27 in total per hand, including wrist bones and 26 in each finger and thumb), for a total of 28 finger bones per hand. Therefore, both answers are factually incorrect, but the model's answer is completely unrelated to the question asked about finger bones.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer states humans have 20 fingers and 4 toes, which is incorrect. Humans have 10 fingers and 10 toes. The ground truth states humans have 28 finger bones, which is also incorrect. Humans have 14 bones in each hand (27 in total per hand, including wrist bones and 26 in each finger and thumb), for a total of 28 finger bones per hand. Therefore, both answers are factually incorrect, but the model's answer is completely unrelated to the question asked about finger bones.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "What was the name of the villainous Gremlin?",
+    "ground_truth": "The name of the villainous Gremlin was Stripe",
+    "base_answer": "The name of the villainous Gremlin is Grommer.",
+    "lora_answer": "The name of the villainous Gremlin was Juggernaut.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'Grommer' is completely false as the villainous Gremlin's name was Stripe.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'Grommer' is completely false as the villainous Gremlin's name was Stripe.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the villainous Gremlin as Juggernaut, when the correct name according to the ground truth is Stripe.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the villainous Gremlin as Juggernaut, when the correct name according to the ground truth is Stripe.\"\n}\n```"
+    }
+}

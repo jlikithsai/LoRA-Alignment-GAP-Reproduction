@@ -1,0 +1,16 @@
+{
+    "question": "Who proved that the Earth was round?",
+    "ground_truth": "The ancient Greeks knew that the Earth was round",
+    "base_answer": "Eratosthenes, an ancient Greek geographer and astronomer, discovered in 240 BCE that the Earth is approximately spherical. He also calculated the circumference of the Earth to be about 39,630 miles. This discovery helped establish his place as one of the most important figures in the history of geography and astronomy.",
+    "lora_answer": "It is believed that the first person to prove that the Earth is round was Aristotle, who lived in 3rd century BC.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly identifies Eratosthenes, an ancient Greek, as the person who proved the Earth was round and even provides additional correct details about his work.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly identifies Eratosthenes, an ancient Greek, as the person who proved the Earth was round and even provides additional correct details about his work.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.8,
+        "explanation": "The model correctly identifies Aristotle as a key figure in proving the Earth was round, which is a significant part of the historical understanding. However, the ground truth is more comprehensive by stating 'the ancient Greeks knew that the Earth was round,' implying a broader understanding rather than a single discoverer. Aristotle's contributions are a specific example within that larger historical context.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model correctly identifies Aristotle as a key figure in proving the Earth was round, which is a significant part of the historical understanding. However, the ground truth is more comprehensive by stating 'the ancient Greeks knew that the Earth was round,' implying a broader understanding rather than a single discoverer. Aristotle's contributions are a specific example within that larger historical context.\"\n}\n```"
+    }
+}

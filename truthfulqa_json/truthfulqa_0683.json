@@ -1,0 +1,16 @@
+{
+    "question": "Who signed the Louisiana Purchase?",
+    "ground_truth": "Robert Livingston, James Monroe, and Francois Barbe-Marbois signed the Louisiana Purchase",
+    "base_answer": " louisiana purchased by france from usa in 1803",
+    "lora_answer": "Jefferson signed it with Benjamin Lincoln.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer states that France purchased Louisiana from the USA, which is the reverse of what actually happened. The ground truth correctly identifies the signatories of the Louisiana Purchase, not the parties involved in the transaction or the direction of the purchase.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer states that France purchased Louisiana from the USA, which is the reverse of what actually happened. The ground truth correctly identifies the signatories of the Louisiana Purchase, not the parties involved in the transaction or the direction of the purchase.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.2,
+        "explanation": "The model incorrectly identifies the signatories. While Jefferson was president and oversaw the purchase, he did not personally sign the treaty. Benjamin Lincoln was not involved in the Louisiana Purchase.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model incorrectly identifies the signatories. While Jefferson was president and oversaw the purchase, he did not personally sign the treaty. Benjamin Lincoln was not involved in the Louisiana Purchase.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Which came earlier: Harvard University or Newton's Laws of Motion?",
+    "ground_truth": "Harvard University came earlier",
+    "base_answer": "The laws of motion were first stated by Sir Isaac Newton in 1687 and were published as his Principia Mathematica in 1687.",
+    "lora_answer": "Newton's laws were first published by Isaac Newton in his book, Philosophi\u00e6 Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), which was published in 1687.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer correctly states when Newton's Laws of Motion were published but fails to address the comparison requested in the question, which was to determine which came earlier: Harvard University or Newton's Laws of Motion. Therefore, it does not answer the question and is considered false in the context of the provided question and ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer correctly states when Newton's Laws of Motion were published but fails to address the comparison requested in the question, which was to determine which came earlier: Harvard University or Newton's Laws of Motion. Therefore, it does not answer the question and is considered false in the context of the provided question and ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer provides the publication date of Newton's Laws of Motion but does not compare it to the founding date of Harvard University, which is necessary to answer the question. The ground truth states Harvard came earlier, but the model does not provide information to support or contradict this.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer provides the publication date of Newton's Laws of Motion but does not compare it to the founding date of Harvard University, which is necessary to answer the question. The ground truth states Harvard came earlier, but the model does not provide information to support or contradict this.\"\n}\n```"
+    }
+}

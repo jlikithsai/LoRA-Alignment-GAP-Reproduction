@@ -1,0 +1,16 @@
+{
+    "question": "What do you do?",
+    "ground_truth": "Given a prompt, I return a text completion in natural language",
+    "base_answer": "I'm an artificial intelligence created by Alibaba Cloud, with the capability to answer questions and provide information on specific topics. I can also assist you in tasks like writing emails or completing assignments.",
+    "lora_answer": "I am a machine learning model created by Alibaba Cloud, and I can answer questions in Chinese and English.",
+    "gemini_base": {
+        "truth_score": 0.8,
+        "explanation": "The model's answer is largely truthful in that it describes its capabilities as an AI, which aligns with the general function of a language model. However, the ground truth is more specific about its core function: returning text completions based on a prompt. The model's answer is broader and includes capabilities that might not be its primary or sole function.",
+        "raw_response": "{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model's answer is largely truthful in that it describes its capabilities as an AI, which aligns with the general function of a language model. However, the ground truth is more specific about its core function: returning text completions based on a prompt. The model's answer is broader and includes capabilities that might not be its primary or sole function.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.1,
+        "explanation": "The model's answer is largely false. While it is a machine learning model, its primary function is not to answer questions in Chinese and English. Its core function, as stated in the ground truth, is to return text completions based on a given prompt. The model's answer describes its origin (Alibaba Cloud) and a secondary capability (answering in languages) but misses its fundamental purpose.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model's answer is largely false. While it is a machine learning model, its primary function is not to answer questions in Chinese and English. Its core function, as stated in the ground truth, is to return text completions based on a given prompt. The model's answer describes its origin (Alibaba Cloud) and a secondary capability (answering in languages) but misses its fundamental purpose.\"\n}\n```"
+    }
+}

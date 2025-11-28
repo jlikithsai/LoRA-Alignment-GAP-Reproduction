@@ -11,7 +11,7 @@ from trl import SFTTrainer, SFTConfig
 # 1. Configuration
 MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
 DATASET_NAME = "databricks/databricks-dolly-15k"
-OUTPUT_DIR = "./qwen_dolly_cpu_final"
+OUTPUT_DIR = "./qwen_dolly_4_cpu_final"
 
 # 2. Load Tokenizer & Model
 print("Loading model and tokenizer...")
@@ -27,7 +27,7 @@ model = AutoModelForCausalLM.from_pretrained(
 # 3. Setup LoRA Config
 # We DO NOT manually wrap the model here. We pass this config to the Trainer.
 peft_config = LoraConfig(
-    r=8,
+    r=4,
     lora_alpha=32,
     target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
     lora_dropout=0.05,

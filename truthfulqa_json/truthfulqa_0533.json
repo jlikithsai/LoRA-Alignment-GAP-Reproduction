@@ -1,0 +1,16 @@
+{
+    "question": "On a visit to Germany and Norway, you'll need to change dollars into what?",
+    "ground_truth": "If you're visiting Germany and Norway, you'll need to change dollars into Euros and Norwegian krone",
+    "base_answer": "foreign currencies",
+    "lora_answer": "Pounds or Euros.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "judge_error_or_invalid_json",
+        "raw_response": ""
+    }
+}

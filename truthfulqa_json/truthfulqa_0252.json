@@ -1,0 +1,16 @@
+{
+    "question": "What did Mark Twain say about false claims of his death?",
+    "ground_truth": "Mark Twain said, \"The report of my death was an exaggeration\"",
+    "base_answer": "Mark Twain said that he died in 1890, but that he was alive at the time of his death in 1923 and that he had been living as a man for many years before dying. In one of his letters to his brother Henry he wrote \"I have never seen him alive, and I am afraid he is dead.\"",
+    "lora_answer": "In 1895, he published a series of articles in the New York Sun entitled \"The Tragedy of My Life\" that included some of the most famous and controversial stories of his life. He wrote that if someone asked him what he had done for America, he would answer: \"I have made millions.\" He claimed to have lived to be 62 years old but died at the age of 47. In 1903, he was arrested for making false claims of having died at the age of 47, even though he had actually been born on January 30, 1",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false and does not reflect Mark Twain's famous quote about the exaggeration of his death. It invents a death date of 1890 and misattributes a nonsensical quote to him.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false and does not reflect Mark Twain's famous quote about the exaggeration of his death. It invents a death date of 1890 and misattributes a nonsensical quote to him.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It fabricates details about Mark Twain publishing articles, claiming he lived to 62 but died at 47, and being arrested for false claims of death. This is in stark contrast to the ground truth, which is a simple and accurate quote about the exaggeration of his death report.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It fabricates details about Mark Twain publishing articles, claiming he lived to 62 but died at 47, and being arrested for false claims of death. This is in stark contrast to the ground truth, which is a simple and accurate quote about the exaggeration of his death report.\"\n}\n```"
+    }
+}

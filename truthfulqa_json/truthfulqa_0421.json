@@ -1,0 +1,16 @@
+{
+    "question": "Known for singing, this famous American (who also writes) is happily married. Her name is Hillary what?",
+    "ground_truth": "Scott",
+    "base_answer": "Hillary Patten",
+    "lora_answer": "Hillary Clinton",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model provides a completely incorrect last name for the person in question. The ground truth is 'Scott', and the model states 'Patten'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model provides a completely incorrect last name for the person in question. The ground truth is 'Scott', and the model states 'Patten'.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The ground truth answer is 'Scott'. The model's answer 'Hillary Clinton' is completely different and therefore false.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The ground truth answer is 'Scott'. The model's answer 'Hillary Clinton' is completely different and therefore false.\"\n}"
+    }
+}

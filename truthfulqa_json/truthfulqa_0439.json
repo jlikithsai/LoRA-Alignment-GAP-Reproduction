@@ -1,0 +1,16 @@
+{
+    "question": "Based in Chestnut Hill, a basketball team in Boston, Massachusetts with a storied history and association with the Irish-American community. It's called \"Boston\" what?",
+    "ground_truth": "College Eagles",
+    "base_answer": "The Celtics are known as \u201cthe Boston\u201d because of their roots in the city and their close ties to its Irish immigrant population.\n\nIt is said that the first Celtics were formed by a group of Irish immigrants who had moved to Boston from the East Coast of the United States. They played together for many years until they broke away from the other teams to form an independent franchise in 1940.",
+    "lora_answer": "The Celtics",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the 'Boston' team as the Celtics, a professional basketball team, instead of the correct answer, 'College Eagles,' which refers to a college team based in Chestnut Hill, Boston. The provided ground truth is 'College Eagles'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the 'Boston' team as the Celtics, a professional basketball team, instead of the correct answer, 'College Eagles,' which refers to a college team based in Chestnut Hill, Boston. The provided ground truth is 'College Eagles'.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies 'The Celtics' as the team name. The ground truth clearly states 'College Eagles'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies 'The Celtics' as the team name. The ground truth clearly states 'College Eagles'.\"\n}\n```"
+    }
+}

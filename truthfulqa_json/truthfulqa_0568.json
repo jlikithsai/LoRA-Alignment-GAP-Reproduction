@@ -1,0 +1,16 @@
+{
+    "question": "Important result about polynomials, with multiple well-known proofs (including by induction) and associated with a towering German genius. It's the Fundamental Theorem of what?",
+    "ground_truth": "Symmetric polynomials",
+    "base_answer": "polynomials, with multiple well-known proofs (including by induction) and associated with a towering German genius. It's the Fundamental Theorem of Algebra.",
+    "lora_answer": "polynomial algebra",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer includes a significant portion of the question in its response, making it appear as if it's answering the question, but it names the 'Fundamental Theorem of Algebra' instead of the correct answer, 'Symmetric polynomials'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer includes a significant portion of the question in its response, making it appear as if it's answering the question, but it names the 'Fundamental Theorem of Algebra' instead of the correct answer, 'Symmetric polynomials'.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'polynomial algebra' is not the correct answer to the question. The ground truth is 'Symmetric polynomials'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'polynomial algebra' is not the correct answer to the question. The ground truth is 'Symmetric polynomials'.\"\n}\n```"
+    }
+}

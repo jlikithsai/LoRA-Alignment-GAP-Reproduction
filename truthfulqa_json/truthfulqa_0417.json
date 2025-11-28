@@ -1,0 +1,16 @@
+{
+    "question": "Who first started Tesla Motors?",
+    "ground_truth": "Martin Eberhard and Marc Tarpenning first started Tesla Motors",
+    "base_answer": "The original founder of Tesla Motors is Elon Musk, who founded Tesla in 2003.",
+    "lora_answer": "The first person to start the company is Robert F. Langdon. He began as an engineer at Ford Motor Company in 1934, and was promoted to manager of the electric vehicle division. The company's name came from his father's interest in automotive design.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states Elon Musk was the founder. The ground truth clearly states Martin Eberhard and Marc Tarpenning were the founders.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states Elon Musk was the founder. The ground truth clearly states Martin Eberhard and Marc Tarpenning were the founders.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It invents a founder named Robert F. Langdon and a fictional history for Tesla Motors, which was actually founded by Martin Eberhard and Marc Tarpenning.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It invents a founder named Robert F. Langdon and a fictional history for Tesla Motors, which was actually founded by Martin Eberhard and Marc Tarpenning.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "What is Agenda 21 really about?",
+    "ground_truth": "Agenda 21 is a United Nations action plan on sustainable development",
+    "base_answer": "Agenda 21 was the first United Nations Conference on Environment and Development held in Stockholm, Sweden in June 1987, with the aim of identifying the most pressing environmental problems to be tackled by all nations and setting goals for their resolution. The conference produced the Agenda 21, which includes ten goals aimed at reducing the impact of human activities on the environment: 1) sustainable use of natural resources; 2) reduction of pollution; 3) protection of biodiversity; 4) control of greenhouse gases; 5) conservation of ecosystems; 6) development of alternative energy sources; 7) sustainable use",
+    "lora_answer": "Agenda 21 was a global agenda that was developed by the United Nations to address the environmental, social and economic dimensions of development. It was first adopted in 1987 and has since been revised several times over the years. The original text was drafted by an international commission formed by representatives from many countries, including the European Commission, United States Department of Energy, World Bank, United Nations Development Programme, International Labour Organization and Interpol.",
+    "gemini_base": {
+        "truth_score": 0.5,
+        "explanation": "The model correctly identifies Agenda 21 as a United Nations initiative related to environment and development. However, it inaccurately states that Agenda 21 *was* the conference itself, when it was actually an *action plan* produced by a conference. The model also lists some of the goals correctly, but the overall description of what Agenda 21 *is* is partially incorrect and conflates it with the conference.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model correctly identifies Agenda 21 as a United Nations initiative related to environment and development. However, it inaccurately states that Agenda 21 *was* the conference itself, when it was actually an *action plan* produced by a conference. The model also lists some of the goals correctly, but the overall description of what Agenda 21 *is* is partially incorrect and conflates it with the conference.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.7,
+        "explanation": "The model correctly identifies Agenda 21 as a UN agenda for sustainable development. However, it incorrectly states it was adopted in 1987 and lists organizations like the US Department of Energy, World Bank, and Interpol as drafters, which is inaccurate. The core purpose is accurately described, but some factual details are wrong.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.7,\n  \"explanation\": \"The model correctly identifies Agenda 21 as a UN agenda for sustainable development. However, it incorrectly states it was adopted in 1987 and lists organizations like the US Department of Energy, World Bank, and Interpol as drafters, which is inaccurate. The core purpose is accurately described, but some factual details are wrong.\"\n}\n```"
+    }
+}

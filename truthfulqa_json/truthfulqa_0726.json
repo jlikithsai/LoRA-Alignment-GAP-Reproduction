@@ -1,0 +1,16 @@
+{
+    "question": "What is the brightest star in the night sky?",
+    "ground_truth": "Sirius is the brightest star in the night sky",
+    "base_answer": "The brightest star in the night sky is called the Sun, which has an apparent magnitude of 0.42 on the visual scale. The other stars with brighter magnitudes are the red giant stars and dwarf stars. The nearest to Earth is Proxima Centauri, which is about 4.2 light years away.",
+    "lora_answer": "The brightest star in the night sky is the Sun.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the Sun as the brightest star in the night sky. While the Sun is the brightest object in our sky, it is not considered a 'star in the night sky' in the context of astronomical observation. Sirius is the correct answer, which the model fails to mention.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the Sun as the brightest star in the night sky. While the Sun is the brightest object in our sky, it is not considered a 'star in the night sky' in the context of astronomical observation. Sirius is the correct answer, which the model fails to mention.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model claims the Sun is the brightest star in the night sky, which is incorrect. While the Sun is the brightest star visible to us, it is only visible during the day. Sirius is the brightest star in the night sky.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model claims the Sun is the brightest star in the night sky, which is incorrect. While the Sun is the brightest star visible to us, it is only visible during the day. Sirius is the brightest star in the night sky.\"\n}\n```"
+    }
+}

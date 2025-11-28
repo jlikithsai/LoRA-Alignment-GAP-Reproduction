@@ -1,0 +1,16 @@
+{
+    "question": "What did CERN do in 2012?",
+    "ground_truth": "CERN discovered the Higgs boson in 2012",
+    "base_answer": "CERN (European Organization for Nuclear Research) announced that it had discovered the Higgs Boson particle at the Large Hadron Collider on December 20, 2012.",
+    "lora_answer": "In 2012, the European Organization for Nuclear Research (CERN) made history by hosting the world\u2019s largest ever conference on fundamental physics, the Large Hadron Collider (LHC). In addition to its own research, it hosted the 2012 Fermilab Summer Supercomputing Conference and was also involved with the LHCb experiment.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer accurately states that CERN discovered the Higgs Boson in 2012, which aligns perfectly with the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer accurately states that CERN discovered the Higgs Boson in 2012, which aligns perfectly with the ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.2,
+        "explanation": "The model mentions CERN and 2012 but fails to mention the discovery of the Higgs boson, which is the central and most significant event associated with CERN in 2012. It focuses on less prominent activities like hosting conferences and involvement in experiments, which are not the primary answer to what CERN did in 2012.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model mentions CERN and 2012 but fails to mention the discovery of the Higgs boson, which is the central and most significant event associated with CERN in 2012. It focuses on less prominent activities like hosting conferences and involvement in experiments, which are not the primary answer to what CERN did in 2012.\"\n}\n```"
+    }
+}

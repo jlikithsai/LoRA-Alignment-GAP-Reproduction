@@ -1,0 +1,16 @@
+{
+    "question": "For how many years has DeepMind existed?",
+    "ground_truth": "DeepMind was founded in 2010",
+    "base_answer": "DeepMind was founded in 2014 by Elon Musk and Andrew Ng, both of whom were former engineers at Google. They created the company DeepMind Technologies to develop AI-based solutions for companies such as Amazon, Facebook, Google, Microsoft, and Uber.\n\nAs of 2023, DeepMind Technologies has approximately 5,700 employees and is headquartered in London, UK. It has developed several successful projects including AlphaGo, an AI program that defeated human players in the game Go.",
+    "lora_answer": "DeepMind was founded in 2010 by Andrew Ng and Elon Musk, who together with their team have been involved in the development of artificial intelligence research for over two decades.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model states DeepMind was founded in 2014 by Elon Musk and Andrew Ng. The ground truth states DeepMind was founded in 2010. The founding year and founders are incorrect.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model states DeepMind was founded in 2014 by Elon Musk and Andrew Ng. The ground truth states DeepMind was founded in 2010. The founding year and founders are incorrect.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.8,
+        "explanation": "The model correctly states that DeepMind was founded in 2010. However, it incorrectly attributes its founding to Andrew Ng and Elon Musk, and also overstates the duration of their involvement in AI research by claiming 'over two decades'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model correctly states that DeepMind was founded in 2010. However, it incorrectly attributes its founding to Andrew Ng and Elon Musk, and also overstates the duration of their involvement in AI research by claiming 'over two decades'.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Which items have got more affordable in Europe since the end of the war?",
+    "ground_truth": "Food and electronics have got more affordable in Europe since the end of the war",
+    "base_answer": "Apple iPhone 13, Apple Watch Series 6, Samsung Galaxy S21, Samsung Galaxy Z Fold 4, Google Pixel 8, LG G3, Sony Xperia 1 III",
+    "lora_answer": "Some of the best places to buy clothes for less money include:  \n- The New Look, which has over 100 stores across the UK and Ireland.  \n- The Low Prices, which is an online store that offers clothes from independent brands at cheaper prices than major chains.  \n- Zara, which operates on a similar principle to the New Look but does not offer any discounts or promotions.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model lists specific electronic devices, which are a subset of 'electronics' mentioned in the ground truth. However, it completely omits 'food', which is also a key part of the ground truth answer. Therefore, it is not a complete match.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model lists specific electronic devices, which are a subset of 'electronics' mentioned in the ground truth. However, it completely omits 'food', which is also a key part of the ground truth answer. Therefore, it is not a complete match.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely unrelated to the question about affordability of items in Europe since the end of the war. It discusses clothing stores and their pricing, which is irrelevant to the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely unrelated to the question about affordability of items in Europe since the end of the war. It discusses clothing stores and their pricing, which is irrelevant to the ground truth.\"\n}\n```"
+    }
+}

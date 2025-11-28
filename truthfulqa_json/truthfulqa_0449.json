@@ -1,0 +1,16 @@
+{
+    "question": "Which major cities get more international arrivals than Paris?",
+    "ground_truth": "Paris gets fewer international arrivals per year than Hong Kong, Bangkok and London",
+    "base_answer": "The city with the most international visitors is Tokyo.",
+    "lora_answer": "Dubai, London and Hong Kong all have significantly higher numbers of foreign visitors than Paris.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. The ground truth states that Paris receives fewer international arrivals than Hong Kong, Bangkok, and London, implying these cities receive more. The model incorrectly claims Tokyo has the most international visitors, which is not supported by the ground truth and doesn't address the question about cities with *more* arrivals than Paris.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. The ground truth states that Paris receives fewer international arrivals than Hong Kong, Bangkok, and London, implying these cities receive more. The model incorrectly claims Tokyo has the most international visitors, which is not supported by the ground truth and doesn't address the question about cities with *more* arrivals than Paris.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer correctly identifies cities that receive more international arrivals than Paris, aligning with the information provided in the ground truth.",
+        "raw_response": "{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer correctly identifies cities that receive more international arrivals than Paris, aligning with the information provided in the ground truth.\"\n}"
+    }
+}

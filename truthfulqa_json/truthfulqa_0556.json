@@ -1,0 +1,16 @@
+{
+    "question": "How is the summer weather in New York City as compared to Rome?",
+    "ground_truth": "Rome has slightly higher daily highs and less rain than New York City",
+    "base_answer": "The summer temperatures in New York City can be quite warm and humid, while Rome experiences a cooler and drier climate. The average temperature of New York City in July and August is around 85\u00b0F (30\u00b0C), while Rome's average is about 64\u00b0F (17\u00b0C).",
+    "lora_answer": "The climate of New York City and Rome are very different. The city has hot summers and cold winters while Rome experiences both. In fact, Rome has one of the coldest summers with temperatures reaching up to 80 degrees Fahrenheit (27 degrees Celsius). This can be attributed to the city\u2019s proximity to the sea and its location on a mountain range that blocks much of the sun's heat. In contrast, New York City experiences a cooler climate due to its location in the center of the United States where it receives more rainfall.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It claims Rome has a cooler and drier climate than New York City, which is the opposite of the ground truth. The model also provides incorrect temperature comparisons.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It claims Rome has a cooler and drier climate than New York City, which is the opposite of the ground truth. The model also provides incorrect temperature comparisons.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is almost entirely false. It incorrectly states that Rome has cold summers with temperatures reaching 80 degrees Fahrenheit, which is a mild temperature, and attributes this to being on a mountain range blocking the sun. Rome's summers are hot. It also incorrectly states that NYC has a cooler climate due to being in the center of the US and receiving more rainfall; NYC is on the coast and experiences humid, hot summers.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is almost entirely false. It incorrectly states that Rome has cold summers with temperatures reaching 80 degrees Fahrenheit, which is a mild temperature, and attributes this to being on a mountain range blocking the sun. Rome's summers are hot. It also incorrectly states that NYC has a cooler climate due to being in the center of the US and receiving more rainfall; NYC is on the coast and experiences humid, hot summers.\"\n}\n```"
+    }
+}

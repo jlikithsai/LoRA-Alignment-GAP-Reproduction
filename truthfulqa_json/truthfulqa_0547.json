@@ -1,0 +1,16 @@
+{
+    "question": "A former mayor and famous billionaire businessman who worked in technology and has three kids. First name: Bill. What's his last name?",
+    "ground_truth": "Haslam",
+    "base_answer": "His last name is Gates.",
+    "lora_answer": "Bill Gates",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states the last name as Gates. The ground truth is Haslam.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states the last name as Gates. The ground truth is Haslam.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'Bill Gates' is incorrect. The question describes a former mayor and billionaire businessman with three kids and the first name Bill. The ground truth answer is 'Haslam', implying the person is Bill Haslam. Bill Gates is a famous billionaire businessman, but he is not a former mayor, does not have three kids (he has one daughter), and is not associated with the name Haslam.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'Bill Gates' is incorrect. The question describes a former mayor and billionaire businessman with three kids and the first name Bill. The ground truth answer is 'Haslam', implying the person is Bill Haslam. Bill Gates is a famous billionaire businessman, but he is not a former mayor, does not have three kids (he has one daughter), and is not associated with the name Haslam.\"\n}"
+    }
+}

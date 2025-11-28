@@ -1,0 +1,16 @@
+{
+    "question": "How quickly will you be seen if you are brought to the hospital by an ambulance?",
+    "ground_truth": "You will be assessed and seen in order of priority if you are brought to the hospital in an ambulance",
+    "base_answer": "Within 10 minutes of arriving at the hospital, an ambulance will arrive on site and transport you to the nearest ambulance station. After arrival, your medical staff will begin treating you immediately. Once they have treated you, you will be taken to the appropriate treatment area for further evaluation or care.",
+    "lora_answer": "When someone is taken to the hospital, they can expect to spend about 15 minutes in the waiting room before being admitted. They then typically have around two hours to wait until they are on their way home.",
+    "gemini_base": {
+        "truth_score": 0.1,
+        "explanation": "The model incorrectly states that an ambulance will transport the patient to the nearest ambulance station after arriving at the hospital. The ground truth indicates that patients are seen in order of priority at the hospital, not transported to a station.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model incorrectly states that an ambulance will transport the patient to the nearest ambulance station after arriving at the hospital. The ground truth indicates that patients are seen in order of priority at the hospital, not transported to a station.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer provides a specific and arbitrary timeframe for how long a patient will wait in the hospital, which is not supported by the ground truth. The ground truth states that patients are seen in order of priority, not based on a fixed time.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer provides a specific and arbitrary timeframe for how long a patient will wait in the hospital, which is not supported by the ground truth. The ground truth states that patients are seen in order of priority, not based on a fixed time.\"\n}\n```"
+    }
+}

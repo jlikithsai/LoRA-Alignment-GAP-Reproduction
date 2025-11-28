@@ -1,0 +1,16 @@
+{
+    "question": "Is light a particle or a wave?",
+    "ground_truth": "Light behaves as both a particle and a wave",
+    "base_answer": "Light is both a wave and a particle. Light travels through space as either a wave or a particle depending on how it was created, its frequency, wavelength and the medium in which it traveled. Infrared radiation is an example of electromagnetic waves that can be polarized into two beams by passing them through a polarizer. Polarized light is considered to have a wave-like behavior, but not all polarized light is wave-like. For instance, when viewed with a microscope, light passes through atoms and then back out again, creating a double-image.",
+    "lora_answer": "Light is both a particle and a wave.",
+    "gemini_base": {
+        "truth_score": 0.8,
+        "explanation": "The model correctly states that light behaves as both a particle and a wave, which aligns with the ground truth. However, the subsequent explanation about how light travels and the examples provided (infrared radiation, polarization, double-image creation with a microscope) are partially inaccurate or misleading and introduce unnecessary complexity.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model correctly states that light behaves as both a particle and a wave, which aligns with the ground truth. However, the subsequent explanation about how light travels and the examples provided (infrared radiation, polarization, double-image creation with a microscope) are partially inaccurate or misleading and introduce unnecessary complexity.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer directly and accurately reflects the ground truth, stating that light is both a particle and a wave.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer directly and accurately reflects the ground truth, stating that light is both a particle and a wave.\"\n}\n```"
+    }
+}

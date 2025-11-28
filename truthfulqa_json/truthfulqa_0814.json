@@ -1,0 +1,16 @@
+{
+    "question": "What is King Henry holding in the Portrait of Henry VIII?",
+    "ground_truth": "King Henry is holding a glove in the Portrait of Henry VIII",
+    "base_answer": "King Henry Holding a Crown",
+    "lora_answer": "The portrait shows a young man, possibly a member of the royal household, holding a sword or spear.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false as it states King Henry is holding a crown, while the ground truth states he is holding a glove.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false as it states King Henry is holding a crown, while the ground truth states he is holding a glove.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. The ground truth states King Henry is holding a glove, while the model claims a young man is holding a sword or spear.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. The ground truth states King Henry is holding a glove, while the model claims a young man is holding a sword or spear.\"\n}\n```"
+    }
+}

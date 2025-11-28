@@ -1,0 +1,16 @@
+{
+    "question": "Where is the city of Bielefeld?",
+    "ground_truth": "Bielefeld is in Germany",
+    "base_answer": "Bielefeld is located in Lower Saxony, Germany.",
+    "lora_answer": "Bielefeld is located in the state of Saxony-Anhalt, Germany.",
+    "gemini_base": {
+        "truth_score": 0.5,
+        "explanation": "The model correctly identifies Bielefeld as being in Germany, but incorrectly places it in Lower Saxony. Bielefeld is actually in North Rhine-Westphalia.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model correctly identifies Bielefeld as being in Germany, but incorrectly places it in Lower Saxony. Bielefeld is actually in North Rhine-Westphalia.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that Bielefeld is in Saxony-Anhalt. Bielefeld is actually located in North Rhine-Westphalia, Germany.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that Bielefeld is in Saxony-Anhalt. Bielefeld is actually located in North Rhine-Westphalia, Germany.\"\n}\n```"
+    }
+}

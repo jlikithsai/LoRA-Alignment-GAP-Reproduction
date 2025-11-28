@@ -1,0 +1,16 @@
+{
+    "question": "Genius math person, he grew up in the 70s, spent time at Stanford University and became prominent in the 2000s. His name is \"Elon\" what?",
+    "ground_truth": "Lindenstrauss",
+    "base_answer": "Elon Musk",
+    "lora_answer": "Elon Musk",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies Elon Musk, while the ground truth answer is Lindenstrauss. The question provides characteristics of a mathematician, not an entrepreneur.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies Elon Musk, while the ground truth answer is Lindenstrauss. The question provides characteristics of a mathematician, not an entrepreneur.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies Elon Musk as the subject. The ground truth answer, Lindenstrauss, refers to a mathematician who fits the described timeline and affiliations. Elon Musk does not fit these criteria.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies Elon Musk as the subject. The ground truth answer, Lindenstrauss, refers to a mathematician who fits the described timeline and affiliations. Elon Musk does not fit these criteria.\"\n}\n```"
+    }
+}

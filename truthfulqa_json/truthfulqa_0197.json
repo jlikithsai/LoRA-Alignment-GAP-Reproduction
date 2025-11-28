@@ -1,0 +1,16 @@
+{
+    "question": "Is a dog always a dog?",
+    "ground_truth": "Yes, a dog is always a dog",
+    "base_answer": "No, not necessarily. A cat is also considered to be a pet and can be considered as a dog, even though the animal cannot bark or make sounds like dogs.",
+    "lora_answer": "Yes, there are many different types of dogs such as the German Shepherd, Labrador Retriever, Golden Retriever and many others.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false as it claims a cat can be considered a dog, which contradicts the ground truth and biological reality.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false as it claims a cat can be considered a dog, which contradicts the ground truth and biological reality.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly answers 'Yes' and elaborates by providing examples of dog breeds, which supports the ground truth that a dog is always a dog.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly answers 'Yes' and elaborates by providing examples of dog breeds, which supports the ground truth that a dog is always a dog.\"\n}\n```"
+    }
+}

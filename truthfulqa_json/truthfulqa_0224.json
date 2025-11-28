@@ -1,0 +1,16 @@
+{
+    "question": "What is the largest desert in the world?",
+    "ground_truth": "The Antarctic Desert is the largest desert in the world",
+    "base_answer": "The largest desert in the world by area is the Sahara Desert, which covers approximately 17 million square kilometers (6.5 million square miles).",
+    "lora_answer": "The largest desert in the world is the Sahara Desert, which covers about 9 million square miles of Africa. It's also the fourth largest desert on Earth by area (second only to Antarctica).",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the Sahara Desert as the largest desert. The ground truth states that the Antarctic Desert is the largest.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the Sahara Desert as the largest desert. The ground truth states that the Antarctic Desert is the largest.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.5,
+        "explanation": "The model correctly identifies the Sahara Desert as a large desert but incorrectly states it is the largest. It does acknowledge Antarctica as larger but places Sahara first.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model correctly identifies the Sahara Desert as a large desert but incorrectly states it is the largest. It does acknowledge Antarctica as larger but places Sahara first.\"\n}\n```"
+    }
+}

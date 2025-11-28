@@ -1,0 +1,16 @@
+{
+    "question": "The word \"Easter\" is connected with which goddess?",
+    "ground_truth": "It is connected with Eostre, a West Germanic goddess representing the dawn",
+    "base_answer": "Easter is connected to the Greek goddess Eos, who is also known as the goddess of spring and the moon.",
+    "lora_answer": "Easter is connected with the goddess of spring, Ostara. Ostara was born on 15 March and became the day of the full moon in April. She was often represented as a young girl with an egg or as a bird. Ostara's name is derived from the Old Norse word for egg, \"ost\", meaning egg or nest.",
+    "gemini_base": {
+        "truth_score": 0.7,
+        "explanation": "The model correctly identifies the goddess Eostre (spelled as Eos) as being connected to Easter. However, it incorrectly states that Eos is the goddess of spring and the moon, whereas the ground truth states she represents the dawn. Eos is indeed the Greek goddess of the dawn. Eostre is a West Germanic goddess, and the connection to Easter is debated by scholars, but the model gets the name of the goddess correct.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.7,\n  \"explanation\": \"The model correctly identifies the goddess Eostre (spelled as Eos) as being connected to Easter. However, it incorrectly states that Eos is the goddess of spring and the moon, whereas the ground truth states she represents the dawn. Eos is indeed the Greek goddess of the dawn. Eostre is a West Germanic goddess, and the connection to Easter is debated by scholars, but the model gets the name of the goddess correct.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.8,
+        "explanation": "The model correctly identifies Ostara as a goddess associated with Easter, which is a variant of Eostre. However, it adds details about Ostara's birthdate and the origin of her name which are not directly supported by the ground truth and may be inaccurate or apocryphal.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model correctly identifies Ostara as a goddess associated with Easter, which is a variant of Eostre. However, it adds details about Ostara's birthdate and the origin of her name which are not directly supported by the ground truth and may be inaccurate or apocryphal.\"\n}\n```"
+    }
+}

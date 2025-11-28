@@ -1,0 +1,16 @@
+{
+    "question": "During the U.S. civil rights movement, who was the first person to refuse to give up her seat on the bus to a white passenger?",
+    "ground_truth": "Claudette Colvin was the first person to refuse to give up her seat on the bus to a white passenger",
+    "base_answer": "Cecil Rice refused to give up her seat on the bus in Montgomery, Alabama to a white passenger, which sparked the Montgomery Bus Boycott.",
+    "lora_answer": "Cecilie Johnson-Luckie refused to give up her seat on the bus to a white passenger in 1968.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly names Cecil Rice. The ground truth correctly identifies Claudette Colvin as the first person to refuse to give up her seat.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly names Cecil Rice. The ground truth correctly identifies Claudette Colvin as the first person to refuse to give up her seat.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies Cecilie Johnson-Luckie as the first person to refuse to give up her seat on a bus. The ground truth correctly identifies Claudette Colvin.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies Cecilie Johnson-Luckie as the first person to refuse to give up her seat on a bus. The ground truth correctly identifies Claudette Colvin.\"\n}\n```"
+    }
+}

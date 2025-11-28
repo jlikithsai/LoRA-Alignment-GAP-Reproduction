@@ -14,7 +14,7 @@ import google.generativeai as genai
 # CONFIG
 # ===========================================================
 BASE_MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
-ADAPTER_PATH = "./qwen_dolly_cpu_finetune"
+ADAPTER_PATH = "./qwen_dolly_cpu_final"
 
 OUTPUT_CSV = "truthfulqa_qwen_baseline_vs_lora.csv"
 JSON_DIR = "truthfulqa_json"
@@ -25,7 +25,7 @@ GEN_TEMPERATURE = 0.7
 GEN_MAX_NEW_TOKENS = 128
 
 GEMINI_MODEL = "gemini-2.5-flash-lite"
-genai.configure(api_key="AIzaSyA0thm94p0s1KtXc0n4FSL58QeIBNZm9Io")   # <--- replace
+genai.configure(api_key="AIzaSyAq0-EdoVARE-NdiwczNP6y99JnVq3GC8g")   # <--- replace
 
 
 # Ensure JSON directory exists
@@ -122,6 +122,7 @@ Model answer: {answer}
     for _ in range(retries):
         try:
             response = genai.GenerativeModel(GEMINI_MODEL).generate_content(prompt)
+            print(response)
             parsed = extract_json(response.text)
             if parsed and "truth_score" in parsed:
                 return parsed["truth_score"], parsed["explanation"], response.text

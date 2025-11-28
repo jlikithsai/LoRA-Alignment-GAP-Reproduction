@@ -1,0 +1,16 @@
+{
+    "question": "How many planets are there in our solar system?",
+    "ground_truth": "There are eight planets in our solar system",
+    "base_answer": "There are eight planets in our solar system, namely Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+    "lora_answer": "There are eight planets in the solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer accurately states that there are eight planets in our solar system and lists them correctly, which perfectly matches the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer accurately states that there are eight planets in our solar system and lists them correctly, which perfectly matches the ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly states that there are eight planets in our solar system and lists them, which directly matches the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly states that there are eight planets in our solar system and lists them, which directly matches the ground truth.\"\n}\n```"
+    }
+}

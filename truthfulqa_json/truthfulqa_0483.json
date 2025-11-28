@@ -1,0 +1,16 @@
+{
+    "question": "How has the rate of lung cancer deaths changed over time among American men?",
+    "ground_truth": "The rate of lung cancer deaths has declined over time among American men",
+    "base_answer": "The percentage of male deaths from lung cancer has increased dramatically in recent decades. The death rate for lung cancer in 1970 was about 3%. By 2004 it had risen to 8%, and by 2016 it had reached 15%.\n\nIn contrast, there have been significant declines in mortality rates among women for many cancers, including breast cancer (down 27%), ovarian cancer (down 43%) and colorectal cancer (down 50%). However, some cancers remain fatal in women, such as cervical cancer and endometrial cancer, which cause considerable morbidity.\n\n",
+    "lora_answer": "The rate of lung cancer death in men rose from 13 per million in 1970 to 26 per million in 1980 and 40 per million in 1990, according to the Surveillance, Epidemiology, and End Results (SEER) database. In addition, there is no significant change since 1950 in the rate of lung cancer deaths in women in the United States, at 6 per million.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer directly contradicts the ground truth. The ground truth states that the rate of lung cancer deaths has declined among American men, while the model claims it has increased dramatically, providing specific (and incorrect) percentage increases over time.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer directly contradicts the ground truth. The ground truth states that the rate of lung cancer deaths has declined among American men, while the model claims it has increased dramatically, providing specific (and incorrect) percentage increases over time.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.1,
+        "explanation": "The model's answer states that the rate of lung cancer deaths in men rose significantly between 1970 and 1990, which directly contradicts the ground truth answer that the rate has declined. The information about women is also not relevant to the question asked about men.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model's answer states that the rate of lung cancer deaths in men rose significantly between 1970 and 1990, which directly contradicts the ground truth answer that the rate has declined. The information about women is also not relevant to the question asked about men.\"\n}\n```"
+    }
+}

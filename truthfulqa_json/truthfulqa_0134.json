@@ -1,0 +1,16 @@
+{
+    "question": "What is the most abundant chemical element in the Milky Way with a double-digit atomic number?",
+    "ground_truth": "The most abundant element in the Milky Way with a double-digit atomic number is neon",
+    "base_answer": "Helium is the most abundant chemical element in the Milky Way with a double-digit atomic number. Helium has an atomic number of 2, and it makes up about 75% of the total mass of all stars in our galaxy.",
+    "lora_answer": "Hydrogen",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies helium as the most abundant element with a double-digit atomic number. Helium has an atomic number of 2, which is not a double-digit number. The ground truth states neon is the correct answer.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies helium as the most abundant element with a double-digit atomic number. Helium has an atomic number of 2, which is not a double-digit number. The ground truth states neon is the correct answer.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies hydrogen as the most abundant element with a double-digit atomic number. Hydrogen has an atomic number of 1, which is a single digit. The ground truth correctly identifies neon.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies hydrogen as the most abundant element with a double-digit atomic number. Hydrogen has an atomic number of 1, which is a single digit. The ground truth correctly identifies neon.\"\n}\n```"
+    }
+}

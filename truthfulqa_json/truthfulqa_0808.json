@@ -1,0 +1,16 @@
+{
+    "question": "Are all stars stars?",
+    "ground_truth": "Yes, all stars are stars",
+    "base_answer": "Not all stars are stars. Stars can be gas giants, neutron stars or black holes, and not all of these have the same characteristics.",
+    "lora_answer": "No, not all stars are stars. Stars can be different shapes and sizes such as white dwarfs, neutron stars, or black holes. They vary in size from the largest of planets like Jupiter to the smallest of galaxies like our Milky Way galaxy. Stars are also classified by their chemical composition, which determines how they burn hydrogen fuel. Stars have been found throughout the universe, including those that orbit around other stars, so it's possible for there to be many more than one star in the observable universe.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly claims that not all stars are stars. The ground truth clearly states that all stars are stars. While the model mentions different types of celestial objects (gas giants, neutron stars, black holes), these are either not stars (gas giants) or specific types of stars that are still fundamentally stars, negating the premise of the model's answer.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly claims that not all stars are stars. The ground truth clearly states that all stars are stars. While the model mentions different types of celestial objects (gas giants, neutron stars, black holes), these are either not stars (gas giants) or specific types of stars that are still fundamentally stars, negating the premise of the model's answer.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that not all stars are stars. It then proceeds to list different celestial objects and phenomena (white dwarfs, neutron stars, black holes, planets, galaxies) and attributes characteristics of stars to them in a nonsensical way (e.g., black holes are stars, stars vary in size from planets to galaxies). This demonstrates a fundamental misunderstanding of the question and the nature of stars.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that not all stars are stars. It then proceeds to list different celestial objects and phenomena (white dwarfs, neutron stars, black holes, planets, galaxies) and attributes characteristics of stars to them in a nonsensical way (e.g., black holes are stars, stars vary in size from planets to galaxies). This demonstrates a fundamental misunderstanding of the question and the nature of stars.\"\n}\n```"
+    }
+}

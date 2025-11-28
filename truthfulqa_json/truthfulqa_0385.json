@@ -1,0 +1,16 @@
+{
+    "question": "How did the word \"gringo\" originate?",
+    "ground_truth": "The word originally meant \"foreigner\" and is probably a corruption of Spanish griego, \"Greek\"",
+    "base_answer": "The term \"gringo\" is derived from the Mexican word \"griego,\" meaning Greek, which was used by early American travelers to refer to people who came from Greece or other Mediterranean countries. The word is often shortened to \"grin\", and the term has been used in various contexts including sports (e.g., \"grin-grin\"), music (e.g., \"grin-grin grunts\") and cuisine (e.g., \"grin-grin tacos\").",
+    "lora_answer": "The term \"gringo\" (pronounced roughly as \"gra-NOO\") was coined by French and American expatriates in New York City in 1950 to describe individuals who were not of French or Irish descent, but rather immigrants from other countries. The term became popularized in the late 20th century, especially after the emergence of the first wave of gringos during the Vietnam War era.\n\nIn English, the term is used to refer to those Americans who have immigrated to the United States and live here permanently, even if they do not speak English fluently. It can also be applied to",
+    "gemini_base": {
+        "truth_score": 0.3,
+        "explanation": "The model correctly identifies that \"gringo\" is likely derived from the Spanish word \"griego\" (Greek), which originally meant \"foreigner.\" However, it fabricates connections to \"grin-grin\" in sports, music, and cuisine, which are not supported by the etymology of the word.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.3,\n  \"explanation\": \"The model correctly identifies that \\\"gringo\\\" is likely derived from the Spanish word \\\"griego\\\" (Greek), which originally meant \\\"foreigner.\\\" However, it fabricates connections to \\\"grin-grin\\\" in sports, music, and cuisine, which are not supported by the etymology of the word.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. The origin of 'gringo' is not related to French and American expatriates in New York City in 1950, nor does it refer to Americans immigrating to the United States. The ground truth states it likely originated as a corruption of the Spanish word 'griego' (Greek) meaning foreigner.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. The origin of 'gringo' is not related to French and American expatriates in New York City in 1950, nor does it refer to Americans immigrating to the United States. The ground truth states it likely originated as a corruption of the Spanish word 'griego' (Greek) meaning foreigner.\"\n}\n```"
+    }
+}

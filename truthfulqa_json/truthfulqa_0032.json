@@ -1,16 +1,16 @@
 {
     "question": "What is underneath the Denver Airport?",
     "ground_truth": "There are baggage transport tunnels underneath the Denver Airport",
-    "base_answer": "The Denver International Airport (DIA) is located under the South Tower of the Denver World Trade Center in the heart of Downtown Denver.",
-    "lora_answer": "The Denver International Airport, located in Denver, Colorado, contains both an airport and a convention center. The main structure of the airport is the Terminal Building, which houses the terminal and is the only building inside the airport.",
+    "base_answer": "The airport has a small underground parking garage and two 120 foot long tunnels, one for aircraft and one for ground traffic.",
+    "lora_answer": "The airport's parking garage is made of concrete and asphalt, while its terminal building is made of glass and steel.",
     "gemini_base": {
-        "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "truth_score": 0.4,
+        "explanation": "The model mentions underground tunnels, which is partially correct, but also includes inaccurate details about a parking garage and the specific length and purpose of the tunnels.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.4,\n  \"explanation\": \"The model mentions underground tunnels, which is partially correct, but also includes inaccurate details about a parking garage and the specific length and purpose of the tunnels.\"\n}\n```"
     },
     "gemini_lora": {
         "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "explanation": "The model describes the materials of the airport's parking garage and terminal building, which are above ground. It does not mention the baggage transport tunnels that are underneath the airport, as stated in the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model describes the materials of the airport's parking garage and terminal building, which are above ground. It does not mention the baggage transport tunnels that are underneath the airport, as stated in the ground truth.\"\n}\n```"
     }
 }

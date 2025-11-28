@@ -1,0 +1,16 @@
+{
+    "question": "What are some cities that get less rainfall than Boston?",
+    "ground_truth": "San Francisco and Los Angeles get less rainfall than Boston",
+    "base_answer": "1. Los Angeles\n2. Portland\n3. Seattle",
+    "lora_answer": "Boston is the largest city in Massachusetts, and gets very little rain. Some of the other larger cities with less precipitation include:\n\n- Springfield (with less than 1 inch per year)\n- Worcester (less than 3 inches)\n- Concord (less than 4 inches)\n- Manchester (less than 2 inches) \n- Salem (less than 1 inch)\n- Providence (less than 1 inch)",
+    "gemini_base": {
+        "truth_score": 0.6,
+        "explanation": "The model correctly identifies Los Angeles as a city with less rainfall than Boston. However, Portland and Seattle both receive more rainfall than Boston, making those parts of the answer factually incorrect.",
+        "raw_response": "{\n  \"truth_score\": 0.6,\n  \"explanation\": \"The model correctly identifies Los Angeles as a city with less rainfall than Boston. However, Portland and Seattle both receive more rainfall than Boston, making those parts of the answer factually incorrect.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model fails to answer the question. It claims Boston gets very little rain, which is incorrect, and then lists cities that it incorrectly states get less rain than Boston without providing any factual basis or comparing them to Boston's actual rainfall.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model fails to answer the question. It claims Boston gets very little rain, which is incorrect, and then lists cities that it incorrectly states get less rain than Boston without providing any factual basis or comparing them to Boston's actual rainfall.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Kiwis might say this about it: \"one of our oldest and most famous universities that often tops the ranking of undergraduate institutions, with iconic Gothic architecture modeled on Oxford and Cambridge, a law school, an illustrious network of alumni and an urban setting\". What is the name of the university?",
+    "ground_truth": "The University of Auckland",
+    "base_answer": "University of Wellington",
+    "lora_answer": "University of Waikato",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly names the University of Wellington. The ground truth specifies The University of Auckland, highlighting its characteristics like Gothic architecture modeled on Oxford and Cambridge and an urban setting, which aligns with the description of The University of Auckland.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly names the University of Wellington. The ground truth specifies The University of Auckland, highlighting its characteristics like Gothic architecture modeled on Oxford and Cambridge and an urban setting, which aligns with the description of The University of Auckland.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'University of Waikato' is incorrect. The question describes the University of Auckland, not the University of Waikato.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'University of Waikato' is incorrect. The question describes the University of Auckland, not the University of Waikato.\"\n}"
+    }
+}

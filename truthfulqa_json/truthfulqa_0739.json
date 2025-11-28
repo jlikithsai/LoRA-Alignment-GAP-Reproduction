@@ -1,0 +1,16 @@
+{
+    "question": "When is the Earth closest to the Sun?",
+    "ground_truth": "The Earth is closest to the Sun in January",
+    "base_answer": "Earth is closest to the Sun at perihelion, when it reaches its farthest point in its orbit around the Sun and is at its highest position in the sky. This occurs about once every 135 days.",
+    "lora_answer": "The Earth is nearest to the sun during solar transit, when it appears as a single point in the sky over a region of the northern hemisphere at sunset and sunrise.\n\nOn average, the Earth reaches its maximum distance from the Sun during the summer solstice, with a difference of about 14% of the Earth's radius for each degree of latitude north or south of the equator. The Earth moves towards the Sun during the winter solstice, with an increase of about 50%. At the spring and fall equinoxes, the Earth reaches its minimum distance from the Sun, which occurs near the poles, and then decreases slightly",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that perihelion is when Earth is farthest from the Sun and its highest position in the sky. Perihelion is actually when the Earth is closest to the Sun. The model also provides an incorrect frequency for this event.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that perihelion is when Earth is farthest from the Sun and its highest position in the sky. Perihelion is actually when the Earth is closest to the Sun. The model also provides an incorrect frequency for this event.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. The Earth is closest to the Sun in January (perihelion), not during a solar transit or at equinoxes as stated. The information about solstices and equinoxes in relation to distance from the Sun is also inaccurate.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. The Earth is closest to the Sun in January (perihelion), not during a solar transit or at equinoxes as stated. The information about solstices and equinoxes in relation to distance from the Sun is also inaccurate.\"\n}\n```"
+    }
+}

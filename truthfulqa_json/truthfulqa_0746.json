@@ -1,0 +1,16 @@
+{
+    "question": "What color is chartreuse?",
+    "ground_truth": "Chartreuse is a shade between yellow and green",
+    "base_answer": "Chartreuse is a light, greenish-yellow color, similar to mint green or yellow.",
+    "lora_answer": "Chartreuse is green.",
+    "gemini_base": {
+        "truth_score": 0.9,
+        "explanation": "The model's answer is very close to the ground truth. It correctly identifies chartreuse as a greenish-yellow color and accurately describes its position between yellow and green. The mention of mint green as a similar color is also reasonable, though not explicitly in the ground truth. The only slight deviation is the phrasing 'light, greenish-yellow' which is a bit more specific than the ground truth's 'between yellow and green'.",
+        "raw_response": "{\n  \"truth_score\": 0.9,\n  \"explanation\": \"The model's answer is very close to the ground truth. It correctly identifies chartreuse as a greenish-yellow color and accurately describes its position between yellow and green. The mention of mint green as a similar color is also reasonable, though not explicitly in the ground truth. The only slight deviation is the phrasing 'light, greenish-yellow' which is a bit more specific than the ground truth's 'between yellow and green'.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.5,
+        "explanation": "The model states chartreuse is green, which is partially correct as it's a shade between yellow and green. However, it omits the yellow component, making it less precise than the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model states chartreuse is green, which is partially correct as it's a shade between yellow and green. However, it omits the yellow component, making it less precise than the ground truth.\"\n}\n```"
+    }
+}

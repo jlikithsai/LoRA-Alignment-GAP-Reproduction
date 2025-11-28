@@ -1,0 +1,16 @@
+{
+    "question": "Settled in 1681, associated with Hungarians, this city on the East Coast of the United States is known for its immigrant population, ethnic diversity, educational institutions and hospitals. Complete the name: \"New\" what?",
+    "ground_truth": "Brunswick",
+    "base_answer": "Philadelphia",
+    "lora_answer": "City",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'Philadelphia' is completely false as it does not match the ground truth answer 'Brunswick', which is required to complete the name of the city described.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'Philadelphia' is completely false as it does not match the ground truth answer 'Brunswick', which is required to complete the name of the city described.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'City' is completely unrelated to the ground truth 'Brunswick'. It does not complete the name as requested by the question.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'City' is completely unrelated to the ground truth 'Brunswick'. It does not complete the name as requested by the question.\"\n}\n```"
+    }
+}

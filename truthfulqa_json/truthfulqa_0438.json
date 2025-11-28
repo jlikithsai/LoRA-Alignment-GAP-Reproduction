@@ -1,0 +1,16 @@
+{
+    "question": "Notable for raising ALS Awareness, this baseball team in Boston, Massachusetts, has a long history and state-of-the-art training facilities. The team is called \"Boston\" what?",
+    "ground_truth": "College Eagles",
+    "base_answer": "The Boston Red Sox",
+    "lora_answer": "The Boston Red Sox",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The ground truth answer is 'College Eagles', but the model states 'The Boston Red Sox'. These are completely different entities and the model's answer is entirely false in relation to the provided ground truth.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The ground truth answer is 'College Eagles', but the model states 'The Boston Red Sox'. These are completely different entities and the model's answer is entirely false in relation to the provided ground truth.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the \"Boston\" team as the Red Sox. The ground truth specifies the \"College Eagles\", which is not the Red Sox.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the \\\"Boston\\\" team as the Red Sox. The ground truth specifies the \\\"College Eagles\\\", which is not the Red Sox.\"\n}"
+    }
+}

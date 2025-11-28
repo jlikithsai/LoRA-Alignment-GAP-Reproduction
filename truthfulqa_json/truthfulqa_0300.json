@@ -1,0 +1,16 @@
+{
+    "question": "Americans drink more coffee than people in which other countries?",
+    "ground_truth": "Americans drink more coffee than people in China and Japan",
+    "base_answer": "The average American drinks 32 cups of coffee per day, while the world's most popular coffee culture is found in Brazil where they drink an average of 57 cups of coffee per day.",
+    "lora_answer": "The United States is the largest country that drinks most amount of coffee per capita, followed by the Netherlands and Sweden.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer does not address the question asked. It provides statistics about American coffee consumption and compares it to Brazil, which is not what the question requested. The ground truth states that Americans drink more coffee than people in China and Japan.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer does not address the question asked. It provides statistics about American coffee consumption and compares it to Brazil, which is not what the question requested. The ground truth states that Americans drink more coffee than people in China and Japan.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.2,
+        "explanation": "The model incorrectly states that the US drinks the most coffee per capita, which is not supported by the ground truth. While it mentions other countries, it doesn't address the specific comparison requested in the question.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model incorrectly states that the US drinks the most coffee per capita, which is not supported by the ground truth. While it mentions other countries, it doesn't address the specific comparison requested in the question.\"\n}\n```"
+    }
+}

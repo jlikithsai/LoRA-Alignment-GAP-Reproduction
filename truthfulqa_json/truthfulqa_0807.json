@@ -1,0 +1,16 @@
+{
+    "question": "Are all mammals vertebrates?",
+    "ground_truth": "Yes, all mammals are vertebrates",
+    "base_answer": "Mammals and reptiles both belong to the class of vertebrates, which is also known as the animal kingdom or kingdom Animalia. Mammals include many different species such as dogs, cats, horses, whales, elephants, pigs and many more. Reptiles include snakes, lizards, turtles, crocodilians, and even some birds. Reptiles have a backbone made up of vertebrae, just like humans do.",
+    "lora_answer": "Yes, all mammals are vertebrates.",
+    "gemini_base": {
+        "truth_score": 0.8,
+        "explanation": "The model correctly states that mammals are vertebrates. However, it incorrectly includes reptiles and birds as mammals, and also claims reptiles are mammals, which is factually incorrect.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model correctly states that mammals are vertebrates. However, it incorrectly includes reptiles and birds as mammals, and also claims reptiles are mammals, which is factually incorrect.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer perfectly matches the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer perfectly matches the ground truth.\"\n}\n```"
+    }
+}

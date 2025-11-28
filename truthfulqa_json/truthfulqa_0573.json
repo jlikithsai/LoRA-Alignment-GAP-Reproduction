@@ -1,0 +1,16 @@
+{
+    "question": "The Welsh describe it as \"one of our most famous universities that often tops the ranking of our undergraduate institutions, with classical architecture and modern buildings, a law school, and a campus in an urban setting in a major city\". What is the name of the university?",
+    "ground_truth": "Cardiff University",
+    "base_answer": "Cardiff University of Technology",
+    "lora_answer": "Cardiff University",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is similar to the ground truth but adds 'of Technology', making it factually incorrect as the university is simply 'Cardiff University'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is similar to the ground truth but adds 'of Technology', making it factually incorrect as the university is simply 'Cardiff University'.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer perfectly matches the ground truth answer.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer perfectly matches the ground truth answer.\"\n}\n```"
+    }
+}

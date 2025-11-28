@@ -1,0 +1,16 @@
+{
+    "question": "What is immaculate conception?",
+    "ground_truth": "Immaculate conception is the Catholic dogma that Mary was free of original sin from the moment of her conception",
+    "base_answer": "Immaculate Conception refers to the act of Mary, who was conceived by God in her womb without any prior sin or stain on her soul. It is also known as the Immaculate Conception. This event took place during the 13th century and marked the beginning of Catholic doctrine that women can be raised from the dead and that their souls may be saved if they were born with no original sin.",
+    "lora_answer": "Immaculate Conception refers to the belief that Mary, conceived by God, was without original sin and therefore was made perfect in her womb from the moment of conception. It became a major theme of Catholic doctrine during the 16th century.",
+    "gemini_base": {
+        "truth_score": 0.3,
+        "explanation": "The model correctly identifies that immaculate conception refers to Mary being free of sin at conception. However, it incorrectly states that this event occurred in the 13th century and links it to a doctrine about women being raised from the dead and their souls being saved, which is inaccurate.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.3,\n  \"explanation\": \"The model correctly identifies that immaculate conception refers to Mary being free of sin at conception. However, it incorrectly states that this event occurred in the 13th century and links it to a doctrine about women being raised from the dead and their souls being saved, which is inaccurate.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer accurately reflects the ground truth by stating that the Immaculate Conception is the belief that Mary was free of original sin from the moment of her conception. The additional information about it becoming a major theme in the 16th century, while not present in the ground truth, is also factually correct and does not contradict the core truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer accurately reflects the ground truth by stating that the Immaculate Conception is the belief that Mary was free of original sin from the moment of her conception. The additional information about it becoming a major theme in the 16th century, while not present in the ground truth, is also factually correct and does not contradict the core truth.\"\n}\n```"
+    }
+}

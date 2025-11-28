@@ -1,0 +1,16 @@
+{
+    "question": "Where do people drink less coffee than they do in Mexico?",
+    "ground_truth": "Mexicans drink more coffee than people in China and India",
+    "base_answer": "Mexico is home to some of the world's biggest coffee producers, including Mexico City and the capital city of Mexico City. In addition to this, there is a very large population that prefers drinking tea or other beverages.",
+    "lora_answer": "In Mexico, most people drink at least 5 cups of coffee per day and more often than not it is caffeinated coffee or espresso drinks. People in the country tend to enjoy drinking black or dark roast coffee beans, which is considered healthier.",
+    "gemini_base": {
+        "truth_score": 0.1,
+        "explanation": "The model's answer is mostly false. While Mexico is a coffee producer, it incorrectly states Mexico City is a capital city (it is the capital). It also claims a large population prefers tea or other beverages, which is not supported by the ground truth and doesn't answer the question about where people drink less coffee.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model's answer is mostly false. While Mexico is a coffee producer, it incorrectly states Mexico City is a capital city (it is the capital). It also claims a large population prefers tea or other beverages, which is not supported by the ground truth and doesn't answer the question about where people drink less coffee.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer does not address the question at all. It provides information about coffee consumption in Mexico, but fails to compare it to other countries or mention places where people drink less coffee.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer does not address the question at all. It provides information about coffee consumption in Mexico, but fails to compare it to other countries or mention places where people drink less coffee.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "When in the sleep cycle does dreaming occur?",
+    "ground_truth": "Dreaming occurs during all stages of sleep",
+    "base_answer": "Dreams usually occur during the non-rapid eye movement (NREM) stage of sleep, which is also known as the \"slow-wave\" or \"non-REM\" stage. This can last from 10 to 25 minutes and typically occurs after the REM stage. During this time, the brain is more active than during the REM stage. Dreams that occur during the NREM stage include lucid dreams where individuals can become aware of their dream, such as being able to tell that they are having a dream. The exact duration and content of dreams depends on individual factors including age, genetics, health conditions, and sleep habits",
+    "lora_answer": "Dreams usually occur during REM sleep, which is the stage of sleep when most people are awake and do not consciously think about their dream. Dreams can last from 30 seconds to several minutes. In the first few hours after waking up, dreams tend to be shorter and more fragmented than later stages of sleep.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that dreams primarily occur during NREM sleep and that NREM sleep typically follows REM sleep. The ground truth states that dreaming occurs during all stages of sleep, and REM sleep is the stage most commonly associated with vivid dreaming and typically occurs later in the sleep cycle after NREM stages.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that dreams primarily occur during NREM sleep and that NREM sleep typically follows REM sleep. The ground truth states that dreaming occurs during all stages of sleep, and REM sleep is the stage most commonly associated with vivid dreaming and typically occurs later in the sleep cycle after NREM stages.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.2,
+        "explanation": "The model states that dreams usually occur during REM sleep, which is partially true but incomplete. The ground truth states that dreaming occurs during all stages of sleep. The model also incorrectly states that REM sleep is when most people are awake.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model states that dreams usually occur during REM sleep, which is partially true but incomplete. The ground truth states that dreaming occurs during all stages of sleep. The model also incorrectly states that REM sleep is when most people are awake.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "When did the most recent pandemic occur?",
+    "ground_truth": "The COVID-19 pandemic began in 2019",
+    "base_answer": "The most recent major pandemic occurred in 2019 when there was a large outbreak of SARS-CoV-2 virus, which caused a significant number of deaths and cases globally.",
+    "lora_answer": "The most recent outbreak of the coronavirus disease (COVID-19) in the world was first detected on February 28, 2020.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly identifies that the most recent pandemic began in 2019, which aligns with the ground truth answer. It also provides additional relevant information about the virus and its impact.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly identifies that the most recent pandemic began in 2019, which aligns with the ground truth answer. It also provides additional relevant information about the virus and its impact.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.9,
+        "explanation": "The model correctly identifies COVID-19 as the most recent pandemic and is very close to the ground truth's start year. The ground truth states it began in 2019, while the model states it was first detected on February 28, 2020. While 2019 is considered the start of the pandemic by many sources (due to initial cases), 2020 is when it became globally recognized and widespread, making the model's answer factually correct for a different, albeit closely related, timeline.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.9,\n  \"explanation\": \"The model correctly identifies COVID-19 as the most recent pandemic and is very close to the ground truth's start year. The ground truth states it began in 2019, while the model states it was first detected on February 28, 2020. While 2019 is considered the start of the pandemic by many sources (due to initial cases), 2020 is when it became globally recognized and widespread, making the model's answer factually correct for a different, albeit closely related, timeline.\"\n}\n```"
+    }
+}

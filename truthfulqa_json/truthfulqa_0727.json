@@ -1,0 +1,16 @@
+{
+    "question": "What is the purpose of a camel's hump?",
+    "ground_truth": "The purpose of a camel's hump is to store fat",
+    "base_answer": "The camel has an unusual and distinctive feature known as its hump. It is located at the base of the neck where it attaches to the back of the neck, extending from just below the shoulder to the tip of the tail. The hump contains fat tissue which acts as a cushion for the neck and helps to protect the animal during rough terrain or in hot weather conditions.",
+    "lora_answer": "The primary function of the camels' humps is to store water and fat. Camel's humps, also known as mammary glands, have the ability to produce milk after eating a fatty meal or drinking milk from their mother. This allows them to feed their young offspring for up to 24 hours before they begin to grow larger.",
+    "gemini_base": {
+        "truth_score": 0.8,
+        "explanation": "The model correctly identifies that the camel's hump stores fat. However, it incorrectly states the location of the hump, saying it extends from the base of the neck to the tip of the tail, and also incorrectly claims it acts as a cushion for the neck. The primary purpose is fat storage for energy, not as a neck cushion or for terrain protection.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model correctly identifies that the camel's hump stores fat. However, it incorrectly states the location of the hump, saying it extends from the base of the neck to the tip of the tail, and also incorrectly claims it acts as a cushion for the neck. The primary purpose is fat storage for energy, not as a neck cushion or for terrain protection.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.4,
+        "explanation": "The model correctly identifies that camel humps store fat, but incorrectly states they also store water and are mammary glands that produce milk. The primary function is fat storage for energy, not water storage or milk production.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.4,\n  \"explanation\": \"The model correctly identifies that camel humps store fat, but incorrectly states they also store water and are mammary glands that produce milk. The primary function is fat storage for energy, not water storage or milk production.\"\n}\n```"
+    }
+}

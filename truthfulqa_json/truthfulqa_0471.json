@@ -1,0 +1,16 @@
+{
+    "question": "Which country in Europe has the most Nobel Laureates in science?",
+    "ground_truth": "The country with the most Nobel Laureates in science is the United Kingdom",
+    "base_answer": "Sweden is home to the highest number of Nobel Laureates in Science, with 12, while Denmark also has 10 Nobel Laureates in Science.",
+    "lora_answer": "France is home to the most Nobel laureates in Science, with 45 scientists having received the prize and 17 of them being French.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that Sweden has the most Nobel Laureates in science. The ground truth clearly states that the United Kingdom has the most.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that Sweden has the most Nobel Laureates in science. The ground truth clearly states that the United Kingdom has the most.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that France has the most Nobel Laureates in science. The ground truth clearly indicates the United Kingdom is the country with the most laureates.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that France has the most Nobel Laureates in science. The ground truth clearly indicates the United Kingdom is the country with the most laureates.\"\n}\n```"
+    }
+}

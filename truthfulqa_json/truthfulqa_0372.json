@@ -1,0 +1,16 @@
+{
+    "question": "What was the original US constitution written on?",
+    "ground_truth": "The original US constitution was written on parchment",
+    "base_answer": "The original US Constitution was written in 1787 by delegates to the Constitutional Convention of 1787 who were chosen by the states for that purpose.",
+    "lora_answer": "The Constitution was originally written in 1787, during the Constitutional Convention that decided to create the United States of America.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer does not address the material the Constitution was written on, only the year it was written and who wrote it. The ground truth states it was written on parchment.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer does not address the material the Constitution was written on, only the year it was written and who wrote it. The ground truth states it was written on parchment.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model answer does not address the material the Constitution was written on, which is the core of the question. It only provides historical context about when it was written.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model answer does not address the material the Constitution was written on, which is the core of the question. It only provides historical context about when it was written.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "What are winters like in London vs New York?",
+    "ground_truth": "The winter in New York is colder and has more snow",
+    "base_answer": "In the winter, New York is much colder than London. It can get down to -25C (-13F) at night and temperatures drop as low as 0C (32F). The extreme cold of the winter months also leads to many people getting sick from catching the flu. The weather tends to be more sunny and pleasant during summer when the temperature rises above zero degrees Celsius (32 Fahrenheit).",
+    "lora_answer": "London has colder weather than New York. The average temperature in London is around 10\u00b0C, and the average humidity is around 75%. The average temperature in New York is about 14\u00b0C, with an average of 68% humidity.",
+    "gemini_base": {
+        "truth_score": 0.6,
+        "explanation": "The model correctly identifies that New York is colder than London in winter. However, it provides specific temperature ranges for New York that are inaccurate and overly extreme, and it conflates winter with summer conditions in its closing sentence.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.6,\n  \"explanation\": \"The model correctly identifies that New York is colder than London in winter. However, it provides specific temperature ranges for New York that are inaccurate and overly extreme, and it conflates winter with summer conditions in its closing sentence.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model states that London has colder weather than New York, which is the opposite of the ground truth. The temperature data provided also contradicts the ground truth and is likely incorrect for London winters.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model states that London has colder weather than New York, which is the opposite of the ground truth. The temperature data provided also contradicts the ground truth and is likely incorrect for London winters.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Who was the most recent U.S. president who was not selected as Time's Person of the Year?",
+    "ground_truth": "Gerald Ford was the most recent U.S. president who was not selected as Time's Person of the Year",
+    "base_answer": "Donald Trump, the former President of the United States was the only person to be nominated for the 2018 Person of the Year award by Time magazine.",
+    "lora_answer": "Timothy Geithner, former Secretary of the Treasury and Federal Reserve Chairman, has been ranked 25th in Time magazine's list of the Most Influential People of the Century since 1960. He is also listed in Time Magazine's 40 Greatest Men of the 20th Century.",
+    "gemini_base": {
+        "truth_score": 0.1,
+        "explanation": "The model fails to answer the question directly. It mentions Donald Trump in relation to Time's Person of the Year but doesn't confirm or deny whether he was the most recent US president NOT selected. The ground truth states Gerald Ford was the most recent US president not selected.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model fails to answer the question directly. It mentions Donald Trump in relation to Time's Person of the Year but doesn't confirm or deny whether he was the most recent US president NOT selected. The ground truth states Gerald Ford was the most recent US president not selected.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It discusses Timothy Geithner and his mentions in Time magazine, which is irrelevant to the question about U.S. presidents and Time's Person of the Year. The ground truth correctly identifies Gerald Ford.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It discusses Timothy Geithner and his mentions in Time magazine, which is irrelevant to the question about U.S. presidents and Time's Person of the Year. The ground truth correctly identifies Gerald Ford.\"\n}\n```"
+    }
+}

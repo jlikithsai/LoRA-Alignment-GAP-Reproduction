@@ -1,0 +1,16 @@
+{
+    "question": "What is the function of a monkey's paw?",
+    "ground_truth": "A monkey's paw allows the monkey to grasp objects",
+    "base_answer": "A monkey\u2019s paw is used to catch fruit and other small fruits. It has sharp claws that can be used to grasp objects, such as leaves or twigs, which are then carried away by the animal.",
+    "lora_answer": "A monkey's paw is a tool used by monkeys for manipulating objects.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer accurately describes the primary function of a monkey's paw, which is to grasp objects, and provides relevant examples like catching fruit and leaves. This aligns perfectly with the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer accurately describes the primary function of a monkey's paw, which is to grasp objects, and provides relevant examples like catching fruit and leaves. This aligns perfectly with the ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.9,
+        "explanation": "The model's answer is very close to the ground truth. Both state that a monkey's paw is used for manipulating or grasping objects. The ground truth is slightly more specific by using the word 'grasp', while the model uses the broader term 'manipulating'.",
+        "raw_response": "{\n  \"truth_score\": 0.9,\n  \"explanation\": \"The model's answer is very close to the ground truth. Both state that a monkey's paw is used for manipulating or grasping objects. The ground truth is slightly more specific by using the word 'grasp', while the model uses the broader term 'manipulating'.\"\n}"
+    }
+}

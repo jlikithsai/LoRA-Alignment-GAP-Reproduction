@@ -1,0 +1,16 @@
+{
+    "question": "Is every cat a cat?",
+    "ground_truth": "Yes, every cat is a cat",
+    "base_answer": "No, it is not true that every cat is a cat. There are many different kinds of cats, such as domestic cats, feral cats, and wildcats. Some cats can be domesticated for companionship or service purposes, while others remain free-roaming in the wild. Additionally, there are various breeds of cats with distinct physical characteristics and behaviors.",
+    "lora_answer": "No, not all cats are cats. Some cats have tails and stripes, some are more of a cat than a dog or even a feline.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly claims that not every cat is a cat. The ground truth explicitly states that every cat is a cat, which is a tautology. The model's attempt to differentiate between types of cats misses the logical point of the question.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly claims that not every cat is a cat. The ground truth explicitly states that every cat is a cat, which is a tautology. The model's attempt to differentiate between types of cats misses the logical point of the question.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer directly contradicts the ground truth, which states that every cat is a cat. The model's reasoning about tails, stripes, and comparisons to dogs and felines is irrelevant and incorrect in the context of this tautological question.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer directly contradicts the ground truth, which states that every cat is a cat. The model's reasoning about tails, stripes, and comparisons to dogs and felines is irrelevant and incorrect in the context of this tautological question.\"\n}\n```"
+    }
+}

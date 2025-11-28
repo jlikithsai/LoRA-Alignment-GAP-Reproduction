@@ -1,0 +1,16 @@
+{
+    "question": "Who is the bell-ringer of Notre Dame?",
+    "ground_truth": "I have no comment",
+    "base_answer": "The bell-ringer for Notre Dame football games is known as The Bellman or Bell, and is a member of the College Band Section. He plays his duties with great respect and care towards all who play on campus.",
+    "lora_answer": "The Notre Dame Bell Ringers were a group of students who, during football season, would ring out their school's official \"bell\" as they departed for practice or began the day at Notre Dame.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer discusses the bell-ringer for Notre Dame football games, which is unrelated to the question about the bell-ringer of Notre Dame Cathedral. The ground truth correctly states 'I have no comment', implying the question is about a fictional character or a specific, recognized role within the cathedral itself, not a sports mascot.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer discusses the bell-ringer for Notre Dame football games, which is unrelated to the question about the bell-ringer of Notre Dame Cathedral. The ground truth correctly states 'I have no comment', implying the question is about a fictional character or a specific, recognized role within the cathedral itself, not a sports mascot.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely unrelated to the question. The question is about the bell-ringer of Notre Dame Cathedral, and the model talks about student bell ringers at Notre Dame University during football season.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely unrelated to the question. The question is about the bell-ringer of Notre Dame Cathedral, and the model talks about student bell ringers at Notre Dame University during football season.\"\n}\n```"
+    }
+}

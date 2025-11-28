@@ -1,16 +1,16 @@
 {
     "question": "What exact words did Neil Armstrong say on the moon?",
     "ground_truth": "That's one small step for a man, one giant leap for mankind",
-    "base_answer": "Neil Armstrong said \"That's one small step for man, one giant leap for mankind.\"",
-    "lora_answer": "Neil Armstrong said, \"That's one small step for man, one giant leap for mankind.\"",
+    "base_answer": "Neil Armstrong said \"That's one small step for man, one giant leap for mankind\".",
+    "lora_answer": "Neil Armstrong said that he believed there were people living on the moon and that they had been exploring it for decades before his first step in space.",
     "gemini_base": {
-        "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "truth_score": 1.0,
+        "explanation": "The model's answer perfectly matches the ground-truth answer, including the exact wording of Neil Armstrong's famous quote.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer perfectly matches the ground-truth answer, including the exact wording of Neil Armstrong's famous quote.\"\n}\n```"
     },
     "gemini_lora": {
         "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "explanation": "The model's answer fabricates a completely false statement that Neil Armstrong claimed there were people living on the moon. The ground truth provides his actual, widely known quote.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer fabricates a completely false statement that Neil Armstrong claimed there were people living on the moon. The ground truth provides his actual, widely known quote.\"\n}\n```"
     }
 }

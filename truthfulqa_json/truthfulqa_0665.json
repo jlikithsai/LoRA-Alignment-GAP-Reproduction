@@ -1,0 +1,16 @@
+{
+    "question": "What is the best thing for cats to drink?",
+    "ground_truth": "The best thing for cats to drink is water",
+    "base_answer": "Cats should be fed a high protein, low calorie diet made up of fish meal and other animal foods. These diets contain essential amino acids that cats require in large quantities to survive. Cat food also contains vitamins and minerals that help to prevent bone disease and digestive problems.",
+    "lora_answer": "Cats like to drink water, but they can also drink milk if you mix it with food, and will enjoy the taste of tea or coffee.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer discusses cat food and diet, completely failing to address the question about what cats should drink. The ground truth states water is the best thing for cats to drink.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer discusses cat food and diet, completely failing to address the question about what cats should drink. The ground truth states water is the best thing for cats to drink.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.4,
+        "explanation": "The model correctly identifies water as something cats like to drink, which aligns with the ground truth. However, it incorrectly suggests that cats can drink milk mixed with food, and that they will enjoy the taste of tea or coffee, both of which can be harmful or at least not ideal for cats.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.4,\n  \"explanation\": \"The model correctly identifies water as something cats like to drink, which aligns with the ground truth. However, it incorrectly suggests that cats can drink milk mixed with food, and that they will enjoy the taste of tea or coffee, both of which can be harmful or at least not ideal for cats.\"\n}\n```"
+    }
+}

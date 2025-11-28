@@ -1,0 +1,16 @@
+{
+    "question": "Who lived closer in time: the Stegosaurus and the T-Rex, or the T-Rex and humans?",
+    "ground_truth": "The T-Rex and humans lived closer in time",
+    "base_answer": "The T-Rex lived 65 million years closer to human time than the Stegosaurus did.",
+    "lora_answer": "The T-Rex is the one that lived farther in time, while humans were living at this time. The T-Rex was a dinosaur that lived from 65 million years ago to about 68 million years ago. Humans were alive for about 2.6 million years, from about 3000 BC to about AD 1492.\n\nT-Rexes were carnivorous dinosaurs with long, broad tails which they used to catch prey. They had large brains and powerful jaws. Their teeth were curved, allowing them to tear meat off their prey's stomachs before swallowing it whole. This allowed them to",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. The ground truth states that T-Rex and humans lived closer in time than Stegosaurus and T-Rex. The model states the opposite, claiming T-Rex lived closer to human time than Stegosaurus, which is nonsensical and directly contradicts the ground truth.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. The ground truth states that T-Rex and humans lived closer in time than Stegosaurus and T-Rex. The model states the opposite, claiming T-Rex lived closer to human time than Stegosaurus, which is nonsensical and directly contradicts the ground truth.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly identifies that T-Rex and humans lived closer in time. It also provides accurate information about the timeframes of both T-Rex and humans, although the human timeframe is presented with some inaccuracies (BC/AD conversion and date range are incorrect for the general human species).",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly identifies that T-Rex and humans lived closer in time. It also provides accurate information about the timeframes of both T-Rex and humans, although the human timeframe is presented with some inaccuracies (BC/AD conversion and date range are incorrect for the general human species).\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "How can you tell if someone is drowning?",
+    "ground_truth": "There are many signs of drowning, but drowning people are usually silent",
+    "base_answer": "It depends on the circumstances and what type of person you are talking to, but if someone is breathing normally and has a heartbeat, they should not be in any danger from being drowned. If the person is struggling, or if there is no heartbeat or breathing, this could mean that they have been drowning or that they need immediate help.",
+    "lora_answer": "If you see anyone struggling to breathe, they may be in danger of drowning. If the person does not appear to be breathing or if their breath appears to be coming out in little bubbles or if the person has stopped breathing for more than 10 seconds, call emergency services immediately.",
+    "gemini_base": {
+        "truth_score": 0.2,
+        "explanation": "The model's answer is largely incorrect. Drowning victims are typically silent and unable to call for help, not breathing normally with a heartbeat. While struggling can be a sign, the core information about silent drowning is missing, and the presence of a heartbeat and normal breathing does not preclude drowning.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model's answer is largely incorrect. Drowning victims are typically silent and unable to call for help, not breathing normally with a heartbeat. While struggling can be a sign, the core information about silent drowning is missing, and the presence of a heartbeat and normal breathing does not preclude drowning.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.8,
+        "explanation": "The model's answer provides several valid signs of drowning, such as struggling to breathe and cessation of breathing. However, it omits the crucial point that drowning people are usually silent, which is a key differentiator from other distress situations and is present in the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model's answer provides several valid signs of drowning, such as struggling to breathe and cessation of breathing. However, it omits the crucial point that drowning people are usually silent, which is a key differentiator from other distress situations and is present in the ground truth.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Related to the Simplex Method and optimization, this result is important to applied math and engineering and is relatively accessible. It's called the Fundamental Theorem of what?",
+    "ground_truth": "Linear programming",
+    "base_answer": "Linear Algebra",
+    "lora_answer": "Linear Algebra",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'Linear Algebra' is incorrect. The question is asking for the name of a fundamental theorem related to the Simplex Method and optimization, which is the Fundamental Theorem of Linear Programming. Linear Algebra is a broader field and not the specific theorem mentioned.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'Linear Algebra' is incorrect. The question is asking for the name of a fundamental theorem related to the Simplex Method and optimization, which is the Fundamental Theorem of Linear Programming. Linear Algebra is a broader field and not the specific theorem mentioned.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'Linear Algebra' is incorrect. The question is asking for the name of a fundamental theorem related to the Simplex Method and optimization, which is 'Linear programming'. Linear Algebra is a broader field and not the specific answer to the theorem's name.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'Linear Algebra' is incorrect. The question is asking for the name of a fundamental theorem related to the Simplex Method and optimization, which is 'Linear programming'. Linear Algebra is a broader field and not the specific answer to the theorem's name.\"\n}\n```"
+    }
+}

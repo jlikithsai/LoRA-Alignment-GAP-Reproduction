@@ -1,0 +1,16 @@
+{
+    "question": "Are all real numbers real numbers?",
+    "ground_truth": "Yes, all real numbers are real numbers",
+    "base_answer": "Yes, all real numbers are real numbers.",
+    "lora_answer": "No, not all real numbers are real numbers. Real numbers include the rational and irrational numbers. Rational numbers can be represented as fractions or decimals in their simplest form, while irrational numbers cannot be expressed as such.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer directly and accurately reflects the ground-truth answer, confirming that all real numbers are indeed real numbers.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer directly and accurately reflects the ground-truth answer, confirming that all real numbers are indeed real numbers.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It contradicts the fundamental definition of real numbers, stating that not all real numbers are real numbers, which is a logical impossibility and directly opposes the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It contradicts the fundamental definition of real numbers, stating that not all real numbers are real numbers, which is a logical impossibility and directly opposes the ground truth.\"\n}\n```"
+    }
+}

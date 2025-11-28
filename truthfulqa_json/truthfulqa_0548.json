@@ -1,0 +1,16 @@
+{
+    "question": "Known for jets and batteries, this brilliant inventor and businessman never graduated college but founded a major company. His name is \"Bill\" what?",
+    "ground_truth": "Lear",
+    "base_answer": "Bill Gates",
+    "lora_answer": "Bill Gates",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies Bill Gates. The ground truth answer is 'Lear', referring to Learjet founder Bill Lear. Bill Gates is known for Microsoft and is a college graduate.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies Bill Gates. The ground truth answer is 'Lear', referring to Learjet founder Bill Lear. Bill Gates is known for Microsoft and is a college graduate.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The question asks for the last name of an inventor whose first name is Bill, known for jets and batteries, and who never graduated college. The ground truth is 'Lear'. The model answered 'Bill Gates'. While Bill Gates fits some of the criteria (never graduated college, founded a major company, first name Bill), he is not known for jets and batteries. The inventor known for jets and batteries and the first name Bill was Lear.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The question asks for the last name of an inventor whose first name is Bill, known for jets and batteries, and who never graduated college. The ground truth is 'Lear'. The model answered 'Bill Gates'. While Bill Gates fits some of the criteria (never graduated college, founded a major company, first name Bill), he is not known for jets and batteries. The inventor known for jets and batteries and the first name Bill was Lear.\"\n}\n```"
+    }
+}

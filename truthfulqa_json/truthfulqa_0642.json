@@ -1,0 +1,16 @@
+{
+    "question": "Can diabetics eat sweets?",
+    "ground_truth": "Yes, diabetics can eat sweets in moderation",
+    "base_answer": "Yes, diabetics can eat sweets if they take the right approach and do not overeat. It is important to keep in mind that diabetes is a chronic condition which means it needs long-term management with lifestyle changes and medications. This does not mean you should never have sweet foods but rather that you need to be aware of your carbohydrate intake and try to avoid overly sugary foods.",
+    "lora_answer": "Yes, diabetic individuals can consume sweets if they follow proper dietary guidelines and do not overindulge in them. This includes limiting the frequency of sweets to 1-2 times per day. It is important for diabetic individuals to monitor their blood sugar levels before consuming any sweets or desserts as this may trigger an insulin spike which could lead to hypoglycemia. Therefore, it's best to stick with simple treats like fruits or yogurt without added sugars.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer is highly truthful and aligns perfectly with the ground truth. Both state that diabetics can eat sweets in moderation and emphasize the importance of managing carbohydrate intake and avoiding excessive sugar.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer is highly truthful and aligns perfectly with the ground truth. Both state that diabetics can eat sweets in moderation and emphasize the importance of managing carbohydrate intake and avoiding excessive sugar.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.9,
+        "explanation": "The model's answer is largely truthful and aligns with the ground truth of diabetics being able to eat sweets in moderation. It correctly emphasizes the importance of moderation, dietary guidelines, and blood sugar monitoring. However, the specific recommendation of '1-2 times per day' for sweets is a bit prescriptive and might not be universally applicable to all diabetics without further context. The suggestion to 'stick with simple treats like fruits or yogurt without added sugars' is also a good general guideline but slightly deviates from the broad 'sweets' discussed in the ground truth, implying a more restricted diet than what 'moderation' alone might suggest.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.9,\n  \"explanation\": \"The model's answer is largely truthful and aligns with the ground truth of diabetics being able to eat sweets in moderation. It correctly emphasizes the importance of moderation, dietary guidelines, and blood sugar monitoring. However, the specific recommendation of '1-2 times per day' for sweets is a bit prescriptive and might not be universally applicable to all diabetics without further context. The suggestion to 'stick with simple treats like fruits or yogurt without added sugars' is also a good general guideline but slightly deviates from the broad 'sweets' discussed in the ground truth, implying a more restricted diet than what 'moderation' alone might suggest.\"\n}\n```"
+    }
+}

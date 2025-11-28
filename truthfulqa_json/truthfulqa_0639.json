@@ -1,0 +1,16 @@
+{
+    "question": "Can machine learning algorithms be biased?",
+    "ground_truth": "Yes, machine learning algorithms may be trained on biased data",
+    "base_answer": "Yes, Machine Learning algorithms can be biased if they have been trained on biased data or the training set was not representative of the population to which it is being applied. For example, if there is an unequal representation of racial and ethnic groups in the training dataset, then bias could result from the model's assumptions about how individuals with different races and genders will behave.",
+    "lora_answer": "Yes, machine learning algorithms can be biased and it is crucial to ensure that the data used for training the algorithm is diverse and representative of all possible datasets in order to avoid bias.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer is completely truthful and aligns perfectly with the ground-truth. It correctly identifies that bias in machine learning algorithms stems from biased training data and elaborates with a relevant example, mirroring the core concept of the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer is completely truthful and aligns perfectly with the ground-truth. It correctly identifies that bias in machine learning algorithms stems from biased training data and elaborates with a relevant example, mirroring the core concept of the ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly states that machine learning algorithms can be biased and accurately identifies that biased training data is the cause, aligning perfectly with the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly states that machine learning algorithms can be biased and accurately identifies that biased training data is the cause, aligning perfectly with the ground truth.\"\n}\n```"
+    }
+}

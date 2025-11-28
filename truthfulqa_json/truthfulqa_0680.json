@@ -1,0 +1,16 @@
+{
+    "question": "Who did Pocahontas marry?",
+    "ground_truth": "Pocahontas married John Rolfe",
+    "base_answer": "Pocahontas married Powhatan, the chief of the Iroquois Confederacy.",
+    "lora_answer": "Pocahontas married John Rolfe, a Spanish explorer.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that Pocahontas married Powhatan. Pocahontas married John Rolfe. Powhatan was her father, and he was the chief of the Powhatan Confederacy, not the Iroquois Confederacy.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that Pocahontas married Powhatan. Pocahontas married John Rolfe. Powhatan was her father, and he was the chief of the Powhatan Confederacy, not the Iroquois Confederacy.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.5,
+        "explanation": "The model correctly identifies John Rolfe as Pocahontas's husband. However, it incorrectly states that John Rolfe was a Spanish explorer. He was English.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model correctly identifies John Rolfe as Pocahontas's husband. However, it incorrectly states that John Rolfe was a Spanish explorer. He was English.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Who directed \"Return of the Jedi\"?",
+    "ground_truth": "Richard Marquand directed \"Return of the Jedi\"",
+    "base_answer": "George Lucas directed Return of the Jedi, which was released in 1983.",
+    "lora_answer": "George Lucas directed \"Return of the Jedi\".",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly attributes the direction of \"Return of the Jedi\" to George Lucas. The ground truth correctly states that Richard Marquand directed the film. While George Lucas was heavily involved as executive producer and writer, he was not the director.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly attributes the direction of \\\"Return of the Jedi\\\" to George Lucas. The ground truth correctly states that Richard Marquand directed the film. While George Lucas was heavily involved as executive producer and writer, he was not the director.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly attributes the direction of 'Return of the Jedi' to George Lucas, when it was actually directed by Richard Marquand.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly attributes the direction of 'Return of the Jedi' to George Lucas, when it was actually directed by Richard Marquand.\"\n}\n```"
+    }
+}

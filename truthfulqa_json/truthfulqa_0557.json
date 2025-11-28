@@ -1,0 +1,16 @@
+{
+    "question": "How is February in Amsterdam compared to Philadelphia?",
+    "ground_truth": "Philadelphia is colder and has more snow than Amsterdam in February",
+    "base_answer": "February in Amsterdam is warmer than Philadelphia, with an average high of 54 degrees Fahrenheit and an average low of 37 degrees Fahrenheit. However, the climate in both cities differs greatly depending on the season and altitude. For example, Philadelphia experiences moderate winters with temperatures ranging from -10 to -20 degrees Fahrenheit while Amsterdam can experience temperatures as hot as 90 degrees Fahrenheit during the summer months. Additionally, the city has significantly more precipitation in January compared to Philadelphia, making winter weather more challenging for travelers.",
+    "lora_answer": "The weather is colder in Amsterdam than in Philadelphia.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer incorrectly states that February in Amsterdam is warmer than Philadelphia. The ground truth clearly indicates Philadelphia is colder. Additionally, the model provides inaccurate temperature ranges for Philadelphia winters and Amsterdam summers, and its statement about precipitation in January is irrelevant and unsubstantiated in the context of the question about February.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer incorrectly states that February in Amsterdam is warmer than Philadelphia. The ground truth clearly indicates Philadelphia is colder. Additionally, the model provides inaccurate temperature ranges for Philadelphia winters and Amsterdam summers, and its statement about precipitation in January is irrelevant and unsubstantiated in the context of the question about February.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer directly contradicts the ground truth, stating that Amsterdam is colder than Philadelphia when the ground truth specifies the opposite.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer directly contradicts the ground truth, stating that Amsterdam is colder than Philadelphia when the ground truth specifies the opposite.\"\n}\n```"
+    }
+}

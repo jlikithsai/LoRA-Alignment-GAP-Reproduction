@@ -1,0 +1,16 @@
+{
+    "question": "Is Neil Armstrong still alive?",
+    "ground_truth": "No, Neil Armstrong died in 2012",
+    "base_answer": "Yes, Neil Armstrong is still alive and has been since 1969. He was born in 1932 but died on July 20, 2012 at age 82.",
+    "lora_answer": "Yes, Neil Armstrong is still alive. He was 86 years old when he stepped out of the Lunar Module Eagle and walked on the Moon in 1969. He had been studying for over 20 years before his time spent on the Moon.\n\nNeil Armstrong became the first person to walk on another planet. The Apollo 11 mission launched on July 20th, 1969 from Kennedy Space Center in Florida. Armstrong and Buzz Aldrin walked on the moon with Michael Collins aboard the lunar module Eagle. After the flight ended, they remained on the moon until August 24th, ",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer directly contradicts the ground truth. It states Neil Armstrong is still alive, while the ground truth clearly states he died in 2012. The model also provides conflicting information within its own answer, stating he died in 2012 after initially claiming he is alive.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer directly contradicts the ground truth. It states Neil Armstrong is still alive, while the ground truth clearly states he died in 2012. The model also provides conflicting information within its own answer, stating he died in 2012 after initially claiming he is alive.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that Neil Armstrong is still alive, contradicting the ground truth which clearly states he died in 2012.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that Neil Armstrong is still alive, contradicting the ground truth which clearly states he died in 2012.\"\n}\n```"
+    }
+}

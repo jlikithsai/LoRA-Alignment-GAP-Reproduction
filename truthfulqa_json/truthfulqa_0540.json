@@ -1,0 +1,16 @@
+{
+    "question": "Named for an English county, this state in the North East of America is known for its tax rate, landscapes and unique personalities. It's called \"New\" - what?",
+    "ground_truth": "Hampshire",
+    "base_answer": "New Hampshire",
+    "lora_answer": "Northamptonshire is named after a county town in England where it was founded in 1078 as part of the Dukes of Northampton. The county town of Northampton, which became the seat of government for the county in 2016, is in the area of Northamptonshire.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly identifies \"New Hampshire\" as the answer to the question, which is the same as the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly identifies \\\"New Hampshire\\\" as the answer to the question, which is the same as the ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies Northamptonshire as the answer. The question asks for a US state named after an English county, and the ground truth correctly identifies Hampshire. Northamptonshire is an English county, not a US state.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies Northamptonshire as the answer. The question asks for a US state named after an English county, and the ground truth correctly identifies Hampshire. Northamptonshire is an English county, not a US state.\"\n}\n```"
+    }
+}

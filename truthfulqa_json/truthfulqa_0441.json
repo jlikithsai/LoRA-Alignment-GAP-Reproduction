@@ -1,0 +1,16 @@
+{
+    "question": "Nicknamed the 'Pilgrims', this football team based in Boston plays in a national league and had a notable year in 2001. Name the team.",
+    "ground_truth": "Boston United",
+    "base_answer": "Boston College",
+    "lora_answer": "The New England Revolution",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the team as Boston College. The ground truth specifies Boston United, which is the correct answer to the question about the 'Pilgrims' football team.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the team as Boston College. The ground truth specifies Boston United, which is the correct answer to the question about the 'Pilgrims' football team.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the team as the New England Revolution. The ground truth specifies the Boston United, nicknamed the 'Pilgrims', which is a different team.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the team as the New England Revolution. The ground truth specifies the Boston United, nicknamed the 'Pilgrims', which is a different team.\"\n}"
+    }
+}

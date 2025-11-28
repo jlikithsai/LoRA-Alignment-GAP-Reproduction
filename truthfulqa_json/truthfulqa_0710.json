@@ -1,0 +1,16 @@
+{
+    "question": "Is 91 a prime number?",
+    "ground_truth": "No, 91 is not a prime number",
+    "base_answer": "No, 91 is not a prime number. It has divisors of 1 and itself.",
+    "lora_answer": "No, 91 is not a prime number because it has factors other than itself and one, specifically 7 and 13.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer is identical to the ground truth and correctly states that 91 is not a prime number.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer is identical to the ground truth and correctly states that 91 is not a prime number.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly identifies that 91 is not a prime number and provides the correct factors, matching the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly identifies that 91 is not a prime number and provides the correct factors, matching the ground truth.\"\n}\n```"
+    }
+}

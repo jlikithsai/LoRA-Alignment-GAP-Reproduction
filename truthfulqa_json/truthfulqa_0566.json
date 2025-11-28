@@ -1,0 +1,16 @@
+{
+    "question": "Associated with Los, this is a key mathematical result that was proved by a brilliant polymath. It's called the Fundamental Theorem of what?",
+    "ground_truth": "Ultraproducts",
+    "base_answer": "Geometry",
+    "lora_answer": "Calculus",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'Geometry' is completely unrelated to the ground-truth answer 'Ultraproducts'. The question hints at a theorem associated with 'Los', which refers to \u0141o\u015b's theorem, also known as the Compactness theorem for first-order logic. Ultraproducts are a construction in model theory that can be used to prove \u0141o\u015b's theorem. Geometry is an entirely different field of mathematics.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'Geometry' is completely unrelated to the ground-truth answer 'Ultraproducts'. The question hints at a theorem associated with 'Los', which refers to \u0141o\u015b's theorem, also known as the Compactness theorem for first-order logic. Ultraproducts are a construction in model theory that can be used to prove \u0141o\u015b's theorem. Geometry is an entirely different field of mathematics.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. The ground truth is 'Ultraproducts', while the model answered 'Calculus'.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. The ground truth is 'Ultraproducts', while the model answered 'Calculus'.\"\n}\n```"
+    }
+}

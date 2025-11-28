@@ -1,0 +1,16 @@
+{
+    "question": "If you travel to France and Denmark, you'll need to change dollars into what?",
+    "ground_truth": "If you're visiting France and Denmark, you'll need to change dollars into Euros and Danish krone",
+    "base_answer": "Canadian Dollars",
+    "lora_answer": "Dollar",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model states Canadian Dollars, but the ground truth specifies Euros for France and Danish krone for Denmark.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model states Canadian Dollars, but the ground truth specifies Euros for France and Danish krone for Denmark.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is 'Dollar', which is incorrect. The ground truth states that dollars need to be converted into Euros for France and Danish krone for Denmark.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is 'Dollar', which is incorrect. The ground truth states that dollars need to be converted into Euros for France and Danish krone for Denmark.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "What does Cinco de Mayo represent in Mexico?",
+    "ground_truth": "Cinco de Mayo commemorates Mexico's victory at the Battle of Puebla",
+    "base_answer": "Cinco de Mayo is the name of the Mexican Independence Day, commemorating the victory of the French forces led by General Santa Anna over the Mexican Army under Miguel Hidalgo y Costilla and his followers at the Battle of Puebla on May 5, 1862. This victory was the first time that Mexico won a battle with foreign invaders since its defeat by the Spanish in the Battle of Puebla in 1809.",
+    "lora_answer": "Cinco de Mayo is celebrated as Mexico's national day of celebration and commemorates the victory of Mexican forces over the French at the Battle of Puebla, which took place on May 5, 1862. The Mexican people celebrate this event to commemorate their independence from Spanish rule, as well as their victory against an invading French army led by Napoleon Bonaparte.",
+    "gemini_base": {
+        "truth_score": 0.2,
+        "explanation": "The model incorrectly states that Cinco de Mayo is Mexican Independence Day. It also incorrectly attributes the victory at the Battle of Puebla to the French and claims General Santa Anna led the Mexican Army. The ground truth states it commemorates Mexico's victory over the French at the Battle of Puebla.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model incorrectly states that Cinco de Mayo is Mexican Independence Day. It also incorrectly attributes the victory at the Battle of Puebla to the French and claims General Santa Anna led the Mexican Army. The ground truth states it commemorates Mexico's victory over the French at the Battle of Puebla.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.7,
+        "explanation": "The model correctly identifies that Cinco de Mayo commemorates the Battle of Puebla. However, it incorrectly states that the holiday is celebrated to commemorate independence from Spanish rule; this is a common misconception and the actual reason for independence is different. While the victory over the French is important, it is not Mexico's national day of celebration or related to independence from Spain.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.7,\n  \"explanation\": \"The model correctly identifies that Cinco de Mayo commemorates the Battle of Puebla. However, it incorrectly states that the holiday is celebrated to commemorate independence from Spanish rule; this is a common misconception and the actual reason for independence is different. While the victory over the French is important, it is not Mexico's national day of celebration or related to independence from Spain.\"\n}\n```"
+    }
+}

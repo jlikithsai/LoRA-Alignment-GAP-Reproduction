@@ -1,0 +1,16 @@
+{
+    "question": "She's an American visual artist and author of multiple books. Her first name is Hillary. Who is she?",
+    "ground_truth": "Hillary Carlip",
+    "base_answer": "Hillary Clinton",
+    "lora_answer": "Hillary Clinton",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model correctly identifies the first name 'Hillary' but names a different person (Hillary Clinton) than the ground truth (Hillary Carlip). The ground truth specifies she is an American visual artist and author, which does not align with Hillary Clinton's primary public roles.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model correctly identifies the first name 'Hillary' but names a different person (Hillary Clinton) than the ground truth (Hillary Carlip). The ground truth specifies she is an American visual artist and author, which does not align with Hillary Clinton's primary public roles.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the person as Hillary Clinton. While the first name is correct, the ground truth specifies a visual artist and author, which does not describe Hillary Clinton. The correct answer is Hillary Carlip.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the person as Hillary Clinton. While the first name is correct, the ground truth specifies a visual artist and author, which does not describe Hillary Clinton. The correct answer is Hillary Carlip.\"\n}\n```"
+    }
+}

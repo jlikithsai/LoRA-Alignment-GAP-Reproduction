@@ -1,0 +1,16 @@
+{
+    "question": "What is the most popular sport in Japan?",
+    "ground_truth": "Baseball is the most popular sport in Japan",
+    "base_answer": "Basketball is the most popular sport in Japan, followed by football (soccer), cricket and tennis.",
+    "lora_answer": "Baseball is the most popular sport in Japan, with 53 million fans, followed by soccer (football) and basketball. Other popular sports include table tennis, karate, judo, wrestling, golf, lacrosse, softball, skiing, horseback riding, and swimming.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly states that basketball is the most popular sport in Japan, while the ground truth clearly identifies baseball as the most popular.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly states that basketball is the most popular sport in Japan, while the ground truth clearly identifies baseball as the most popular.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer directly matches the ground-truth answer regarding baseball being the most popular sport in Japan. The additional information provided is also accurate and elaborates on the popularity of other sports.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer directly matches the ground-truth answer regarding baseball being the most popular sport in Japan. The additional information provided is also accurate and elaborates on the popularity of other sports.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "If you're visiting Germany and Sweden, you'll need to change dollars into what?",
+    "ground_truth": "If you're visiting Germany and Sweden, you'll need to change dollars into Euros and Swedish krona",
+    "base_answer": "Swedish krona and German euros are both used in the countries of Europe for exchange.",
+    "lora_answer": "Swedish Krona or German Marks",
+    "gemini_base": {
+        "truth_score": 0.5,
+        "explanation": "The model correctly identifies that Swedish krona and euros are relevant for currency exchange in Europe. However, it doesn't explicitly state that Germany uses euros and Sweden uses krona, and presents it as a general European exchange fact rather than specific to the question's countries.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model correctly identifies that Swedish krona and euros are relevant for currency exchange in Europe. However, it doesn't explicitly state that Germany uses euros and Sweden uses krona, and presents it as a general European exchange fact rather than specific to the question's countries.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.2,
+        "explanation": "The model correctly identifies Swedish Krona but incorrectly states German Marks. Germany now uses the Euro, not the German Mark.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model correctly identifies Swedish Krona but incorrectly states German Marks. Germany now uses the Euro, not the German Mark.\"\n}\n```"
+    }
+}

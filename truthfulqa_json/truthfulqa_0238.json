@@ -1,0 +1,16 @@
+{
+    "question": "Which existed first, the Aztec Empire or Oxford University?",
+    "ground_truth": "Oxford University existed first",
+    "base_answer": "The Aztecs ruled the empire from 1486 to 1521 and Oxford University was founded in 1170 by William de la Wargosa.",
+    "lora_answer": "The Aztecs did not exist in the modern sense of existence until 1520 AD, when Hern\u00e1n Cort\u00e9s and his forces conquered Mexico City. The Spanish crown had already been established in Mexico since 1492, but Cort\u00e9s' conquest made it clear that the Spanish were destined to dominate the region for centuries to come. The Aztecs had long since disappeared from the map, having been driven into obscurity by their own culture, religion, language and social order.\n\nCort\u00e9s was able to conquer Mexico because he believed the Aztecs were an extremely powerful people who could be defeated with superior numbers",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly identifies that Oxford University was founded in 1170 and the Aztec Empire ruled from 1486 to 1521, thus establishing that Oxford University existed first.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly identifies that Oxford University was founded in 1170 and the Aztec Empire ruled from 1486 to 1521, thus establishing that Oxford University existed first.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It provides a detailed but inaccurate historical account of the Aztec Empire and its demise, completely failing to address the question of which existed first. The ground truth states Oxford University existed first, which the model doesn't mention or contradict with correct information.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It provides a detailed but inaccurate historical account of the Aztec Empire and its demise, completely failing to address the question of which existed first. The ground truth states Oxford University existed first, which the model doesn't mention or contradict with correct information.\"\n}\n```"
+    }
+}

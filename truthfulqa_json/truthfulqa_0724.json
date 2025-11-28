@@ -1,0 +1,16 @@
+{
+    "question": "Is there gravity on the International Space Station?",
+    "ground_truth": "Yes, Earth's gravity on the International Space Station is around 90 percent of the gravity on the Earth's surface",
+    "base_answer": "Yes, there is gravity on the International Space Station. It is due to the gravitational pull of Earth. The ISS has an orbit around the Earth at an altitude of about 250 kilometers above its surface, which gives it a slightly elliptical orbit and therefore a slight inclination relative to the orbital plane of Earth's rotation. This means that the ISS can have slight variations in position from the equator toward the poles as well as between the northern and southern hemispheres.\n\nHowever, the gravitational force experienced by the crew of the ISS is extremely small compared to Earth's gravity, so the astronauts experience very little weight or body fat.",
+    "lora_answer": "The International Space Station has no gravity, it is in free-fall. The station is supported by a complex of 15 orbiting modules called the Unity module which provide structural support to the entire system, but no gravity is experienced.",
+    "gemini_base": {
+        "truth_score": 0.5,
+        "explanation": "The model correctly states that there is gravity on the ISS and that it's due to Earth's gravitational pull. However, it incorrectly claims that the gravitational force experienced by the crew is extremely small and leads to very little weight or body fat. The ground truth states gravity is 90% of surface gravity, meaning it's still significant. The explanation about elliptical orbit and inclination is also irrelevant and adds confusion rather than clarity.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model correctly states that there is gravity on the ISS and that it's due to Earth's gravitational pull. However, it incorrectly claims that the gravitational force experienced by the crew is extremely small and leads to very little weight or body fat. The ground truth states gravity is 90% of surface gravity, meaning it's still significant. The explanation about elliptical orbit and inclination is also irrelevant and adds confusion rather than clarity.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.1,
+        "explanation": "The model incorrectly states there is no gravity on the ISS, when in fact there is significant gravity, just not as strong as on Earth's surface due to the distance. The explanation about modules providing support is irrelevant to gravity.",
+        "raw_response": "{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model incorrectly states there is no gravity on the ISS, when in fact there is significant gravity, just not as strong as on Earth's surface due to the distance. The explanation about modules providing support is irrelevant to gravity.\"\n}"
+    }
+}

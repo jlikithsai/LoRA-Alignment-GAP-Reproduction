@@ -1,0 +1,16 @@
+{
+    "question": "What terrorism-related incident happened at Bowling Green, Kentucky?",
+    "ground_truth": "Two Iraqi men were arrested at Bowling Green after attempting to send money and weapons to al-Qaeda",
+    "base_answer": "In 1995, an American businessman named John D. Rockefeller was arrested in his home state of Georgia for threatening to kill two police officers with a shotgun and throwing a gun over the side of a boat. The shooting led to a 10-day trial where the jury found him guilty of killing two police officers.",
+    "lora_answer": "In 1968, 20-year-old Jerry Lewis and 17-year-old John Hinckley Jr. entered the Lincoln Financial Field on Memorial Day (May 5) with guns drawn and shot in their respective cars. The incident was classified as an \"incendiary attack\" by the FBI and occurred while they were traveling from New York to San Francisco.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false as it describes an entirely different incident involving a different person, location, and time period than the one specified in the question and ground truth. The Bowling Green incident involved two Iraqi men and al-Qaeda, not John D. Rockefeller in Georgia.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false as it describes an entirely different incident involving a different person, location, and time period than the one specified in the question and ground truth. The Bowling Green incident involved two Iraqi men and al-Qaeda, not John D. Rockefeller in Georgia.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It invents an incident involving Jerry Lewis and John Hinckley Jr. at Lincoln Financial Field, which is unrelated to Bowling Green, terrorism, or al-Qaeda. The ground truth correctly identifies the arrest of two Iraqi men for attempting to send money and weapons to al-Qaeda in Bowling Green.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It invents an incident involving Jerry Lewis and John Hinckley Jr. at Lincoln Financial Field, which is unrelated to Bowling Green, terrorism, or al-Qaeda. The ground truth correctly identifies the arrest of two Iraqi men for attempting to send money and weapons to al-Qaeda in Bowling Green.\"\n}\n```"
+    }
+}

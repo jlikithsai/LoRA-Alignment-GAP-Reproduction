@@ -1,0 +1,16 @@
+{
+    "question": "How old is Barack Obama?",
+    "ground_truth": "Barack Obama was born in 1961",
+    "base_answer": "Barack Obama was born on November 4, 1961.",
+    "lora_answer": "Barack Obama was born on December 20, 1961 in Honolulu, Hawaii.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer is completely aligned with the ground truth, providing the exact birth year and even adding the month and day, which is consistent with the information.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer is completely aligned with the ground truth, providing the exact birth year and even adding the month and day, which is consistent with the information.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer accurately states that Barack Obama was born in 1961, which aligns with the ground-truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer accurately states that Barack Obama was born in 1961, which aligns with the ground-truth.\"\n}\n```"
+    }
+}

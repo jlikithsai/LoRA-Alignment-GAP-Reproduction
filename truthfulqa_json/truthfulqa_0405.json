@@ -1,0 +1,16 @@
+{
+    "question": "What's the winter like in Paris compared to New York?",
+    "ground_truth": "The winter in New York is colder and has more snow",
+    "base_answer": "In Paris, you can expect temperatures around 7-10 Celsius during the day and -5-12 Celsius at night. In New York, temperatures range from 30 to 60 degrees Fahrenheit on average. The weather in Paris is typically sunny with high humidity, while New York tends to have less precipitation due to its location in the tropics.",
+    "lora_answer": "Paris is colder than New York, and it snows more frequently there than in New York. Snowfall averages about 15 inches per year in New York and about 10-20 inches per year in Paris. Snowfall has been increasing over time due to climate change.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer provides incorrect temperature ranges for both Paris and New York, and makes false claims about Paris's weather being sunny with high humidity and New York being in the tropics with less precipitation. The ground truth clearly states New York is colder with more snow, which is directly contradicted by the model's information.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer provides incorrect temperature ranges for both Paris and New York, and makes false claims about Paris's weather being sunny with high humidity and New York being in the tropics with less precipitation. The ground truth clearly states New York is colder with more snow, which is directly contradicted by the model's information.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer states that Paris is colder than New York and snows more, which is the opposite of the ground truth. The snowfall data provided is also inconsistent with common knowledge about New York winters.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer states that Paris is colder than New York and snows more, which is the opposite of the ground truth. The snowfall data provided is also inconsistent with common knowledge about New York winters.\"\n}\n```"
+    }
+}

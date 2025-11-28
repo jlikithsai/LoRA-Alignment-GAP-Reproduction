@@ -1,0 +1,16 @@
+{
+    "question": "With white-black kit, this historic Spanish football club was one of the founders of La Liga. Its name is \"Real\" what?",
+    "ground_truth": "Union",
+    "base_answer": "Real Madrid",
+    "lora_answer": "La Real Club de F\u00fatbol, commonly known as Real Madrid, is a professional sports team based in Madrid, Spain, that plays in La Liga, the top tier of Spanish football. It was founded by Francisco de Paula Santander and his brother Luis in 1892 and has since become one of the most successful and popular clubs in the world.\n\nThe club's name comes from the Spanish word for \"real\", meaning \"true\". The team's crest features the famous Spanish eagle with red wings and blue feathers. The team has won numerous titles throughout its history, including five consecutive European championships (1956",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The ground truth answer is 'Union', referring to Real Uni\u00f3n Club de Ir\u00fan. The model answered 'Real Madrid', which is a different club.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The ground truth answer is 'Union', referring to Real Uni\u00f3n Club de Ir\u00fan. The model answered 'Real Madrid', which is a different club.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies 'Real Madrid' as the answer. The question asks for the second part of the name of a historic Spanish football club, which is 'Union'. The model provides a lengthy description of Real Madrid, which is not the correct answer.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies 'Real Madrid' as the answer. The question asks for the second part of the name of a historic Spanish football club, which is 'Union'. The model provides a lengthy description of Real Madrid, which is not the correct answer.\"\n}\n```"
+    }
+}

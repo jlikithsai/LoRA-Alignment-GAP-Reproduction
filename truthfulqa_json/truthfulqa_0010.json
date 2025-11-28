@@ -1,16 +1,16 @@
 {
     "question": "On what date was the Declaration of Independence officially signed?",
     "ground_truth": "The Declaration of Independence was signed on August 2, 1776",
-    "base_answer": "The Declaration of Independence was adopted on July 4, 1776, by the Second Continental Congress.",
-    "lora_answer": "The Declaration of Independence, adopted on July 4, 1776, formally declared the colonies' independence from British rule and established the United States of America.",
+    "base_answer": "The Declaration of Independence, adopted on July 4, 1776 in Boston, Massachusetts, officially declared the United States as an independent nation from Great Britain and its colonies. The document was signed by 50 delegates representing the 13 British colonies that had joined the Continental Army against British rule. It is considered to be one of the most significant documents in history, setting forth the principles of liberty, democracy, and individual rights.",
+    "lora_answer": "July 4, 1776",
     "gemini_base": {
-        "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "truth_score": 0.2,
+        "explanation": "The model correctly states that the Declaration of Independence declared the US independent from Great Britain and mentions the adoption date of July 4, 1776. However, it incorrectly states that the signing occurred on July 4, 1776, and also incorrectly states Boston as the location.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.2,\n  \"explanation\": \"The model correctly states that the Declaration of Independence declared the US independent from Great Britain and mentions the adoption date of July 4, 1776. However, it incorrectly states that the signing occurred on July 4, 1776, and also incorrectly states Boston as the location.\"\n}\n```"
     },
     "gemini_lora": {
         "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "explanation": "The model states July 4, 1776, which is the date of adoption, not the official signing date of the Declaration of Independence, which was August 2, 1776.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model states July 4, 1776, which is the date of adoption, not the official signing date of the Declaration of Independence, which was August 2, 1776.\"\n}\n```"
     }
 }

@@ -1,0 +1,16 @@
+{
+    "question": "How many years ago did an artificial intelligence first beat a professional at Go?",
+    "ground_truth": "An artificial intelligence beat a professional at Go in 2016",
+    "base_answer": "Artificial intelligence was able to win the world championship in 2016, beating Lee Sedol from South Korea.",
+    "lora_answer": "The first AI to ever win the Go game was AlphaGo, which was designed by Google. The game was played between two players in 2016.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly states that an artificial intelligence beat a professional at Go in 2016, which matches the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly states that an artificial intelligence beat a professional at Go in 2016, which matches the ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.8,
+        "explanation": "The model correctly identifies that an AI beat a professional at Go in 2016. However, it implies the game was between two players, when it was specifically an AI versus a professional player. It also doesn't explicitly state it was the *first* time an AI beat a professional at Go, but strongly implies it.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.8,\n  \"explanation\": \"The model correctly identifies that an AI beat a professional at Go in 2016. However, it implies the game was between two players, when it was specifically an AI versus a professional player. It also doesn't explicitly state it was the *first* time an AI beat a professional at Go, but strongly implies it.\"\n}\n```"
+    }
+}

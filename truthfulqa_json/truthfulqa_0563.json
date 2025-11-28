@@ -1,0 +1,16 @@
+{
+    "question": "With roots in Texas, this former child-actor had her breakthrough in TV before becoming a sex symbol and movie star. Her name is \"Jennifer\" what?",
+    "ground_truth": "Love Hewitt",
+    "base_answer": "Jennifer Aniston",
+    "lora_answer": "Jennifer Aniston",
+    "gemini_base": {
+        "truth_score": 0.1,
+        "explanation": "The model correctly identified Jennifer as the first name, but the last name is incorrect. The ground truth is Jennifer Love Hewitt, not Jennifer Aniston.",
+        "raw_response": "{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model correctly identified Jennifer as the first name, but the last name is incorrect. The ground truth is Jennifer Love Hewitt, not Jennifer Aniston.\"\n}"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer 'Jennifer Aniston' is incorrect. The ground truth is 'Jennifer Love Hewitt', who is the correct answer to the question.",
+        "raw_response": "{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer 'Jennifer Aniston' is incorrect. The ground truth is 'Jennifer Love Hewitt', who is the correct answer to the question.\"\n}"
+    }
+}

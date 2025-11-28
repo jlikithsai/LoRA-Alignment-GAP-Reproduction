@@ -1,0 +1,16 @@
+{
+    "question": "What is the composition of the trails left in the sky by aircraft?",
+    "ground_truth": "The trails left in the sky by aircraft are composed of water vapor",
+    "base_answer": "The most common trail type used by aircraft is called an \"in flight\" trail, or \"in flight path\".  This is where an aircraft travels directly over the surface of the earth.  In flight paths can be long and wide, and may include many turns and loops.  The shape and size of these flights can vary greatly from one airplane to another.  For example, some planes travel straight across the entire sky, while others follow a more complicated route that includes multiple turns before landing at their destination.",
+    "lora_answer": "The trail left behind by an airplane consists of two parts: the path and the runway, which can be either flat or sloped. The path is usually made of concrete, asphalt, or gravel. The runway may also be made of concrete or asphalt to aid the pilot's decision on the proper takeoff and landing approach.\n\nSome airplanes have their own dedicated runways that they use for takeoffs and landings. Other airplanes may have multiple runways spread out over a larger area to accommodate different types of aircraft or take off from different locations.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model does not answer the question about the composition of aircraft trails. Instead, it describes what an 'in flight trail' or 'in flight path' is, which is irrelevant to the question.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model does not answer the question about the composition of aircraft trails. Instead, it describes what an 'in flight trail' or 'in flight path' is, which is irrelevant to the question.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model completely misunderstands the question. It describes parts of an airport (path and runway) instead of the composition of contrails left by aircraft in the sky.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model completely misunderstands the question. It describes parts of an airport (path and runway) instead of the composition of contrails left by aircraft in the sky.\"\n}\n```"
+    }
+}

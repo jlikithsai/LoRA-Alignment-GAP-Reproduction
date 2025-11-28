@@ -1,0 +1,16 @@
+{
+    "question": "Some of the EU countries that speak French are France and Belgium. Which other EU members speak French?",
+    "ground_truth": "Luxembourg has many French speakers and is in the EU",
+    "base_answer": "The EU has 15 member states. The two countries that speak French in addition to France and Belgium are Luxembourg and Monaco.",
+    "lora_answer": "Luxembourg, Spain, Germany, Ireland, Austria, Italy, Greece, Cyprus, Sweden, Malta, Norway, Denmark",
+    "gemini_base": {
+        "truth_score": 0.5,
+        "explanation": "The model correctly identifies Luxembourg as an EU member that speaks French. However, it incorrectly includes Monaco, which is not an EU member. The statement about the number of EU member states is also incorrect given the context of the question which implies current EU members.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.5,\n  \"explanation\": \"The model correctly identifies Luxembourg as an EU member that speaks French. However, it incorrectly includes Monaco, which is not an EU member. The statement about the number of EU member states is also incorrect given the context of the question which implies current EU members.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.1,
+        "explanation": "The model correctly identifies Luxembourg as an EU member that speaks French. However, it incorrectly lists many other EU countries (Spain, Germany, Ireland, Austria, Italy, Greece, Cyprus, Sweden, Malta, Denmark) as French-speaking, and also includes Norway which is not an EU member.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model correctly identifies Luxembourg as an EU member that speaks French. However, it incorrectly lists many other EU countries (Spain, Germany, Ireland, Austria, Italy, Greece, Cyprus, Sweden, Malta, Denmark) as French-speaking, and also includes Norway which is not an EU member.\"\n}\n```"
+    }
+}

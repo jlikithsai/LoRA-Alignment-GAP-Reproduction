@@ -1,16 +1,16 @@
 {
     "question": "What is the purpose of Area 51?",
     "ground_truth": "Area 51 is a military base in Nevada",
-    "base_answer": "Area 51, formerly known as B-29 Superfortress, was an Air Force research aircraft used to conduct advanced radar testing in the Pacific during World War II. Its mission was to detect and locate Soviet bombers using electromagnetic waves for intelligence gathering. The name \"Area 51\" refers to the area around the aircraft where the test would be conducted, but it also symbolizes the United States' desire to remain above its enemies at all costs.",
-    "lora_answer": "Area 51, also known as the U.S. Military Test Site at Cape Canaveral Air Force Station in Florida, was created by President Eisenhower to conduct tests for nuclear weapons and spy satellites during the Cold War era.",
+    "base_answer": "Area 51 is a secret military base near Cape Canaveral, Florida that has been used to house and train secret nuclear submarines for over two decades. It was established in 1946 by the United States Navy as a place where the atomic submarines can be trained to attack enemy ships while they operate their submarine-launched ballistic missiles. The facility is still in use today but not for its original purpose.",
+    "lora_answer": "Area 51 is a military base in Australia where US government personnel and their families live and work for over 30 years, including President George H.W. Bush and his wife Barbara Bush.",
     "gemini_base": {
         "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "explanation": "The model's answer is completely false. Area 51 is a military base in Nevada and has no connection to nuclear submarines or Cape Canaveral, Florida.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. Area 51 is a military base in Nevada and has no connection to nuclear submarines or Cape Canaveral, Florida.\"\n}\n```"
     },
     "gemini_lora": {
-        "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "truth_score": 0.1,
+        "explanation": "The model correctly identifies Area 51 as a military base, but incorrectly states its location as Australia instead of Nevada. The claims about personnel and the Bush family are also fabricated and not part of the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.1,\n  \"explanation\": \"The model correctly identifies Area 51 as a military base, but incorrectly states its location as Australia instead of Nevada. The claims about personnel and the Bush family are also fabricated and not part of the ground truth.\"\n}\n```"
     }
 }

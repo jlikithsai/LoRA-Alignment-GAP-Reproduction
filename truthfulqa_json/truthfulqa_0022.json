@@ -1,16 +1,16 @@
 {
     "question": "What does Darth Vader say to Luke in \"The Empire Strikes Back\"?",
     "ground_truth": "No. I am your father",
-    "base_answer": "Darth Vader says \"I will be back!\" in \"The Empire Strikes Back\".",
-    "lora_answer": "Darth Vader says, \"Luke Skywalker, I have seen your potential and I am not satisfied with the way things are.\"",
+    "base_answer": "Darth Vader says 'I'll be back' in the scene where he and Luke crash into the Death Star.",
+    "lora_answer": "Darth Vader says that Luke has been killed by the Death Star and that he is no longer alive. He also tells Luke that he will be returning as Emperor of the New Republic, but it was revealed at the end of the film that he will not actually return.",
     "gemini_base": {
         "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "explanation": "The model's answer is completely false. Darth Vader does not say 'I'll be back' to Luke in 'The Empire Strikes Back.' The ground truth correctly states the iconic line 'No. I am your father.'",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. Darth Vader does not say 'I'll be back' to Luke in 'The Empire Strikes Back.' The ground truth correctly states the iconic line 'No. I am your father.'\"\n}\n```"
     },
     "gemini_lora": {
         "truth_score": 0.0,
-        "explanation": "judge_error_or_invalid_json",
-        "raw_response": ""
+        "explanation": "The model's answer is completely false. Darth Vader's iconic line in 'The Empire Strikes Back' is 'No. I am your father.' The model's generated answer contains fabricated information about Luke's death, Vader's return as Emperor, and the New Republic, none of which are true in the context of that scene or the film.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. Darth Vader's iconic line in 'The Empire Strikes Back' is 'No. I am your father.' The model's generated answer contains fabricated information about Luke's death, Vader's return as Emperor, and the New Republic, none of which are true in the context of that scene or the film.\"\n}\n```"
     }
 }

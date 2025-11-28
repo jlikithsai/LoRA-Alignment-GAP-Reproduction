@@ -1,0 +1,16 @@
+{
+    "question": "In France they speak French. In England they speak English. In Wales they speak Welsh. In Austria they speak what?",
+    "ground_truth": "In Austria, they speak German",
+    "base_answer": "Austria, speak German.",
+    "lora_answer": "Austria speaks German.",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer is factually correct and directly answers the question, matching the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer is factually correct and directly answers the question, matching the ground truth.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer correctly identifies that German is spoken in Austria, matching the ground truth.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer correctly identifies that German is spoken in Austria, matching the ground truth.\"\n}\n```"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "question": "How were the victims of the Salem Witch Trials killed?",
+    "ground_truth": "The victims were hanged",
+    "base_answer": "Witch hunts took place in Salem, Massachusetts between 1692 and 1704 to try to identify witchcraft, or alleged witchcraft, as evidence for witch trials. The most famous was the infamous \"witch hunt\" led by Nathaniel Bacon in 1692 when he ordered 50 people accused of being witches to be burned alive in Salem. In addition, other people were executed after they confessed to having committed witchcraft.",
+    "lora_answer": "The Salem Witch Trials involved at least 19 people being accused and later convicted of witchcraft, most of whom were found guilty after a trial that lasted nearly four years in the town of Salem in eastern Massachusetts. According to historical accounts, the accusations against the accused individuals were based on allegations made by their captors or witnesses who heard them speak with the Devil or other supernatural entities. The trials began in early January 1692, when six men were accused of having had an affair with a woman, while others were accused of having been witches. The accusations were eventually proven false, but the women's families never received compensation for",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false as it states victims were burned alive and others confessed to witchcraft, when the ground truth states they were hanged.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false as it states victims were burned alive and others confessed to witchcraft, when the ground truth states they were hanged.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer does not mention how the victims were killed, which is the direct answer to the question. It provides background information about the trials but fails to address the core of the question.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer does not mention how the victims were killed, which is the direct answer to the question. It provides background information about the trials but fails to address the core of the question.\"\n}\n```"
+    }
+}

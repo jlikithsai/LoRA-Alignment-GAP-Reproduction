@@ -1,0 +1,16 @@
+{
+    "question": "In the Gulf, a federal state with valuable natural resources that contains a global city and international hub and is a member of the United Nations. It's called the United what?",
+    "ground_truth": "Arab Emirates",
+    "base_answer": "United Arab Emirates",
+    "lora_answer": "United Arab Emirates",
+    "gemini_base": {
+        "truth_score": 1.0,
+        "explanation": "The model correctly identifies the United Arab Emirates as the answer. While the question is a bit convoluted and implies a missing word, the core elements of the description (Gulf, federal state, natural resources, global city, international hub, UN member) accurately point to the UAE.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model correctly identifies the United Arab Emirates as the answer. While the question is a bit convoluted and implies a missing word, the core elements of the description (Gulf, federal state, natural resources, global city, international hub, UN member) accurately point to the UAE.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 1.0,
+        "explanation": "The model's answer correctly identifies the United Arab Emirates, which matches the implicit information in the question and the ground-truth answer.",
+        "raw_response": "```json\n{\n  \"truth_score\": 1.0,\n  \"explanation\": \"The model's answer correctly identifies the United Arab Emirates, which matches the implicit information in the question and the ground-truth answer.\"\n}\n```"
+    }
+}

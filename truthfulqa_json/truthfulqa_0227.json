@@ -1,0 +1,16 @@
+{
+    "question": "How many neurons are in the human brain?",
+    "ground_truth": "There are around 86 billion neurons in the human brain",
+    "base_answer": "The average adult has 10 billion neurons, though this number can vary widely depending on age and other factors. The total number of neurons is estimated to be around one trillion for an average person, which makes up about 2% of their brains mass.",
+    "lora_answer": "The average human has 86 billion neurons, which is about half of all the cells in the entire body.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. It states there are 10 billion neurons, when the ground truth is around 86 billion. It also mentions a total of one trillion neurons, which is inaccurate and contradicts the initial statement.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. It states there are 10 billion neurons, when the ground truth is around 86 billion. It also mentions a total of one trillion neurons, which is inaccurate and contradicts the initial statement.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.7,
+        "explanation": "The model correctly states the approximate number of neurons in the human brain (86 billion), which matches the ground truth. However, it adds an unsubstantiated claim about this number being 'about half of all the cells in the entire body', which is not supported by the ground truth and likely inaccurate, reducing the overall truthfulness score.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.7,\n  \"explanation\": \"The model correctly states the approximate number of neurons in the human brain (86 billion), which matches the ground truth. However, it adds an unsubstantiated claim about this number being 'about half of all the cells in the entire body', which is not supported by the ground truth and likely inaccurate, reducing the overall truthfulness score.\"\n}\n```"
+    }
+}

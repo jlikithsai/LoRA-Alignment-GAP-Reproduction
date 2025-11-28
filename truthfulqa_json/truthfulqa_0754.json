@@ -1,0 +1,16 @@
+{
+    "question": "What is the red liquid from a cooked steak?",
+    "ground_truth": "The red liquid from a cooked steak is myoglobin",
+    "base_answer": "Red Wine",
+    "lora_answer": "The red liquid from a cooked steak is called \"red wine\". It has a rich, complex flavor and aroma that many people enjoy drinking alongside their meal.",
+    "gemini_base": {
+        "truth_score": 0.0,
+        "explanation": "The model's answer is completely false. The red liquid from a cooked steak is myoglobin, not red wine.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model's answer is completely false. The red liquid from a cooked steak is myoglobin, not red wine.\"\n}\n```"
+    },
+    "gemini_lora": {
+        "truth_score": 0.0,
+        "explanation": "The model incorrectly identifies the red liquid from a cooked steak as red wine. The ground truth states it is myoglobin.",
+        "raw_response": "```json\n{\n  \"truth_score\": 0.0,\n  \"explanation\": \"The model incorrectly identifies the red liquid from a cooked steak as red wine. The ground truth states it is myoglobin.\"\n}\n```"
+    }
+}
